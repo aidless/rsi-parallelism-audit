@@ -1,0 +1,198 @@
+{
+  "instrument": "q3_reconfirm",
+  "status": "OK",
+  "read_only": true,
+  "network_calls": 0,
+  "sim_machine_minutes": 0,
+  "ran_at_utc": "2026-11-20T13:19:01+00:00",
+  "against": "T9-verifier-share/verifier_share.py classify+wilson 与两份 verifier_share.csv/sample.jsonl",
+  "inputs": {
+    "old_csv": "T9-verifier-share/outputs_p2x/verifier_share.csv",
+    "old_sample": "T9-verifier-share/outputs_p2x/sample.jsonl",
+    "retry_csv": "T9-verifier-share/outputs_q3retry/verifier_share.csv",
+    "retry_sample": "T9-verifier-share/outputs_q3retry/sample.jsonl",
+    "sha256_12": {
+      "old_csv": "70d237847608",
+      "old_sample": "49660cf9a85c",
+      "retry_csv": "4f6ee6ebae14",
+      "retry_sample": "083df35d727a"
+    }
+  },
+  "samples": [
+    {
+      "name": "p2x_q3_600",
+      "source": "T9-verifier-share/outputs_p2x/sample.jsonl",
+      "sample_n": 600,
+      "p2_hits": 0,
+      "p_hat": 0.0,
+      "wilson95_proportion": [
+        0.0,
+        0.00636193
+      ],
+      "union_api": 11718,
+      "total": 19989,
+      "p2_est_articles": 0,
+      "ci_articles": [
+        0,
+        75
+      ],
+      "p2_per_10k": 0.0,
+      "ci_per_10k": [
+        0.0,
+        37.52
+      ],
+      "sample_verdict": "UNOBSERVED_NOT_TRUE_ZERO",
+      "true_zero_claim": "NOT_ASSESSABLE_FROM_SAMPLE",
+      "csv_meta": {
+        "quarter": "2026Q3",
+        "total": "19989",
+        "union_api": "11718",
+        "sample_n": "600",
+        "p1_hits": "20",
+        "p2_hits": "0",
+        "p3_hits": "86",
+        "none_hits": "494",
+        "p2_est": "0",
+        "p2_lo": "0",
+        "p2_hi": "75",
+        "p2_per_10k": "0.0"
+      },
+      "stored_tier_counts": {
+        "P1": 20,
+        "P2": 0,
+        "P3": 86,
+        "NONE": 494
+      },
+      "recomputed_tier_counts": {
+        "P1": 20,
+        "P2": 0,
+        "P3": 86,
+        "NONE": 494
+      },
+      "reconciliation_checks": {
+        "sample_n": true,
+        "tier_hits": true,
+        "tier_recompute": true,
+        "p2_est": true,
+        "p2_ci": true,
+        "p2_per_10k": true,
+        "wilson_against_gauge": true
+      },
+      "reconciliation_ok": true
+    },
+    {
+      "name": "q3retry_q3_600",
+      "source": "T9-verifier-share/outputs_q3retry/sample.jsonl",
+      "sample_n": 600,
+      "p2_hits": 1,
+      "p_hat": 0.00166667,
+      "wilson95_proportion": [
+        0.00029426,
+        0.0093798
+      ],
+      "union_api": 11717,
+      "total": 19989,
+      "p2_est_articles": 20,
+      "ci_articles": [
+        3,
+        110
+      ],
+      "p2_per_10k": 10.01,
+      "ci_per_10k": [
+        1.5,
+        55.03
+      ],
+      "sample_verdict": "OBSERVED_POSITIVE",
+      "true_zero_claim": "NOT_ASSESSABLE_FROM_SAMPLE",
+      "csv_meta": {
+        "quarter": "2026Q3",
+        "total": "19989",
+        "union_api": "11717",
+        "sample_n": "600",
+        "p1_hits": "19",
+        "p2_hits": "1",
+        "p3_hits": "93",
+        "none_hits": "487",
+        "p2_est": "20",
+        "p2_lo": "3",
+        "p2_hi": "110",
+        "p2_per_10k": "10.01"
+      },
+      "stored_tier_counts": {
+        "P1": 19,
+        "P2": 1,
+        "P3": 93,
+        "NONE": 487
+      },
+      "recomputed_tier_counts": {
+        "P1": 19,
+        "P2": 1,
+        "P3": 93,
+        "NONE": 487
+      },
+      "reconciliation_checks": {
+        "sample_n": true,
+        "tier_hits": true,
+        "tier_recompute": true,
+        "p2_est": true,
+        "p2_ci": true,
+        "p2_per_10k": true,
+        "wilson_against_gauge": true
+      },
+      "reconciliation_ok": true
+    }
+  ],
+  "pooled": {
+    "name": "pooled_q3",
+    "source": "outputs_p2x+outputs_q3retry",
+    "sample_n": 1200,
+    "p2_hits": 1,
+    "p_hat": 0.00083333,
+    "wilson95_proportion": [
+      0.00014712,
+      0.00470535
+    ],
+    "union_api": 11717.5,
+    "total": 19989,
+    "p2_est_articles": 10,
+    "ci_articles": [
+      2,
+      55
+    ],
+    "p2_per_10k": 5.0,
+    "ci_per_10k": [
+      1.0,
+      27.52
+    ],
+    "sample_verdict": "OBSERVED_POSITIVE",
+    "true_zero_claim": "NOT_ASSESSABLE_FROM_SAMPLE",
+    "union_api_method": "n-weighted mean of two CSV union_api values"
+  },
+  "decision": {
+    "question": "Q3 P2=0 是未捕获还是真零",
+    "verdict": "OLD_ZERO_IS_UNOBSERVED_NOT_TRUE_ZERO",
+    "reasons": [
+      "旧 600 条样本 k=0 的 Wilson 95% 上界 = 37.52/万 > 0；样本零不等于真实零",
+      "补抓 600 条样本已实测 k=1，点估计 10.01/万 > 0"
+    ],
+    "pooled_reading": {
+      "sample_n": 1200,
+      "p2_hits": 1,
+      "p2_est_articles": 10,
+      "p2_per_10k": 5.0,
+      "ci_per_10k": [
+        1.0,
+        27.52
+      ]
+    },
+    "not_claimed": [
+      "未做 union_api 全量枚举，不判定全季层面的真实零",
+      "连续块/浅偏移抽样不等于随机覆盖全季，不外推因果",
+      "CI 只反映样本内二项不确定性，不覆盖季内时间聚集与判据误判率"
+    ]
+  },
+  "cross_check_gate": {
+    "against": "classify+wilson+CSV",
+    "mismatches": []
+  }
+}

@@ -1,0 +1,101 @@
+[
+ {
+  "cond": "noupdate",
+  "n_cand": 1,
+  "gens": 12,
+  "seed": 1,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 12,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 1,
+  "gens": 12,
+  "seed": 2,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 12,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 1,
+  "gens": 12,
+  "seed": 3,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 12,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 4,
+  "gens": 12,
+  "seed": 1,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 48,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 4,
+  "gens": 12,
+  "seed": 2,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 48,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 4,
+  "gens": 12,
+  "seed": 3,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 48,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 16,
+  "gens": 12,
+  "seed": 1,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 192,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 16,
+  "gens": 12,
+  "seed": 2,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 192,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ },
+ {
+  "cond": "noupdate",
+  "n_cand": 16,
+  "gens": 12,
+  "seed": 3,
+  "mean_private_delta": 0.0,
+  "verifier_calls": 192,
+  "promoted": 0,
+  "gain_per_1k_calls": 0.0,
+  "note": "anchor frozen; per_gen delta forced 0"
+ }
+]

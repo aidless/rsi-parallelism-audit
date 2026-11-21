@@ -1,0 +1,41 @@
+WARN api failed after 5 retries: HTTP Error 500: Internal Server Error | (cat:cs.AI OR cat:cs.CL) AND submittedDate:[202607010000 TO 202609302359] AND ((
+[2025Q4] total=15038
+[2025Q4] union_api=8317 offset=6496 fetched=200
+[2025Q4] union_api=8317 offset=6696 fetched=200
+[2025Q4] union_api=8317 offset=6896 fetched=200
+[2025Q4] union_api=8317 offset=7096 fetched=200
+[2025Q4] union_api=8317 offset=7296 fetched=200
+[2025Q4] n=1000 P1=16 P2=3 P3=69 NONE=912 est P1=133 P2=25 P3=574
+[2026Q1] total=17135
+[2026Q1] union_api=9454 offset=3529 fetched=200
+[2026Q1] union_api=9454 offset=3729 fetched=200
+[2026Q1] union_api=9454 offset=3929 fetched=200
+[2026Q1] union_api=9454 offset=4129 fetched=200
+[2026Q1] union_api=9454 offset=4329 fetched=200
+[2026Q1] n=1000 P1=25 P2=7 P3=101 NONE=867 est P1=236 P2=66 P3=955
+[2026Q2] total=22246
+[2026Q2] union_api=12603 offset=2376 fetched=200
+[2026Q2] union_api=12603 offset=2576 fetched=200
+[2026Q2] union_api=12603 offset=2776 fetched=200
+[2026Q2] union_api=12603 offset=2976 fetched=200
+[2026Q2] union_api=12603 offset=3176 fetched=200
+[2026Q2] n=1000 P1=32 P2=4 P3=109 NONE=855 est P1=403 P2=50 P3=1374
+[2026Q3] total=19989
+[2026Q3] union_api=11718 offset=9369 fetched=200
+[2026Q3] union_api=11718 offset=9569 fetched=200
+[2026Q3] union_api=11718 offset=9769 fetched=200
+[2026Q3] union_api=11718 offset=9969 fetched=0
+[2026Q3] n=600 P1=20 P2=0 P3=86 NONE=494 est P1=391 P2=0 P3=1680
+2025Q4: total=15038 P1est=133 (88.44/10k) P2est=25 (16.62/10k) P3est=574 (381.7/10k)
+2026Q1: total=17135 P1est=236 (137.73/10k) P2est=66 (38.52/10k) P3est=955 (557.34/10k)
+2026Q2: total=22246 P1est=403 (181.16/10k) P2est=50 (22.48/10k) P3est=1374 (617.64/10k)
+2026Q3: total=19989 P1est=391 (195.61/10k) P2est=0 (0.0/10k) P3est=1680 (840.46/10k)
+-> outputs_p2x
+
+# ---- provenance (appended after run) ----
+# command: python3 verifier_share.py --quarters 2025Q4 2026Q1 2026Q2 2026Q3 \
+#   --out outputs_p2x --sleep 5 --page 200 --sample-pages 5
+# note: 2026Q3 offset>=9969 连续 HTTP 500（arXiv 深偏移故障），仅取回 3 页=600 条；
+#       其余三季各 1000 条。所有 total/union_api/offset 见上方每季块。
+# recompute: python3 recompute_p2x.py ; python3 compare_p2x.py ; \
+#   python3 verifier_share.py --agreement outputs_p2x/review_p2.jsonl outputs_p2x/review_p2_labels.json

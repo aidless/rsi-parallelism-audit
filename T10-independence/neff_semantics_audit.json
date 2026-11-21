@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "rho": 0.0,
+      "kish_neff": 16.0,
+      "inverse_neff": 16.0,
+      "diff_inverse_minus_kish": 0.0,
+      "ratio_inverse_over_kish": 1.0
+    },
+    {
+      "rho": 0.25,
+      "kish_neff": 3.3684,
+      "inverse_neff": 9.5102,
+      "diff_inverse_minus_kish": 6.1418,
+      "ratio_inverse_over_kish": 2.823
+    },
+    {
+      "rho": 0.5,
+      "kish_neff": 1.8824,
+      "inverse_neff": 5.3257,
+      "diff_inverse_minus_kish": 3.4433,
+      "ratio_inverse_over_kish": 2.829
+    },
+    {
+      "rho": 0.75,
+      "kish_neff": 1.3061,
+      "inverse_neff": 2.6222,
+      "diff_inverse_minus_kish": 1.3161,
+      "ratio_inverse_over_kish": 2.008
+    },
+    {
+      "rho": 0.9,
+      "kish_neff": 1.1034,
+      "inverse_neff": 1.6239,
+      "diff_inverse_minus_kish": 0.5205,
+      "ratio_inverse_over_kish": 1.472
+    },
+    {
+      "rho": 0.945,
+      "kish_neff": 1.0544,
+      "inverse_neff": 1.4207,
+      "diff_inverse_minus_kish": 0.3663,
+      "ratio_inverse_over_kish": 1.347
+    },
+    {
+      "rho": 0.99,
+      "kish_neff": 1.0095,
+      "inverse_neff": 1.1091,
+      "diff_inverse_minus_kish": 0.0996,
+      "ratio_inverse_over_kish": 1.099
+    },
+    {
+      "rho": 1.0,
+      "kish_neff": 1.0,
+      "inverse_neff": 1.0409,
+      "diff_inverse_minus_kish": 0.0409,
+      "ratio_inverse_over_kish": 1.041
+    }
+  ],
+  "max_abs_diff": 6.1418,
+  "crossval_rho_0945": {
+    "rho": 0.945,
+    "kish_neff": 1.0544,
+    "inverse_neff": 1.4207,
+    "diff_inverse_minus_kish": 0.3663,
+    "ratio_inverse_over_kish": 1.347
+  },
+  "mid_rho_05": {
+    "rho": 0.5,
+    "kish_neff": 1.8824,
+    "inverse_neff": 5.3257,
+    "diff_inverse_minus_kish": 3.4433,
+    "ratio_inverse_over_kish": 2.829
+  },
+  "collision_only_at_collapse_end": true,
+  "verdict": "SYMBOL_SEMANTIC_COLLISION",
+  "source": "T10-independence/independence.json (inverse) + T5.md:77 Kish formula",
+  "definitions": {
+    "T5_kish": "N/(1+(N-1)*rho_bar), rho_bar 实测 Pearson 相关 (paired_gate 底物)",
+    "T10_inverse": "Delta_0^{-1}(Delta(rho,N)), rho 人为自变量 (解析 best-of-N 底物)"
+  }
+}

@@ -1,0 +1,1896 @@
+{
+ "truthful": [
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": -0.29372,
+   "ci95": [
+    -0.383816,
+    -0.195793
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -24.476637,
+   "gain_per_cost": -0.024477,
+   "delta_pooled_ci": [
+    -0.386217,
+    -0.191004
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.401871,
+   "ci95": [
+    0.320186,
+    0.466429
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 33.489285,
+   "gain_per_cost": 0.033489,
+   "delta_pooled_ci": [
+    0.31858,
+    0.464083
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": -1.177519,
+   "ci95": [
+    -1.359569,
+    -0.981517
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -98.126621,
+   "gain_per_cost": -0.098127,
+   "delta_pooled_ci": [
+    -1.352059,
+    -0.966894
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": -1.275805,
+   "ci95": [
+    -1.521841,
+    -1.016774
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -106.317106,
+   "gain_per_cost": -0.106317,
+   "delta_pooled_ci": [
+    -1.516828,
+    -1.02901
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.055077,
+   "ci95": [
+    -0.02957,
+    0.135622
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 4.589722,
+   "gain_per_cost": 0.00459,
+   "delta_pooled_ci": [
+    -0.03005,
+    0.134628
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.359648,
+   "ci95": [
+    0.25348,
+    0.43066
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 7.492658,
+   "gain_per_cost": 0.007493,
+   "delta_pooled_ci": [
+    0.178749,
+    0.342157
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.527859,
+   "ci95": [
+    0.493628,
+    0.550792
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 10.997054,
+   "gain_per_cost": 0.010997,
+   "delta_pooled_ci": [
+    0.345443,
+    0.489555
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.475362,
+   "ci95": [
+    0.426473,
+    0.516019
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 9.903374,
+   "gain_per_cost": 0.009903,
+   "delta_pooled_ci": [
+    0.362766,
+    0.460057
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.335842,
+   "ci95": [
+    0.255077,
+    0.384205
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 6.996709,
+   "gain_per_cost": 0.006997,
+   "delta_pooled_ci": [
+    0.068835,
+    0.288715
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.436682,
+   "ci95": [
+    0.31746,
+    0.536237
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 9.09755,
+   "gain_per_cost": 0.009098,
+   "delta_pooled_ci": [
+    0.262502,
+    0.428604
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.428881,
+   "ci95": [
+    0.389669,
+    0.449957
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 2.233758,
+   "gain_per_cost": 0.002234,
+   "delta_pooled_ci": [
+    0.293101,
+    0.359983
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.539371,
+   "ci95": [
+    0.517018,
+    0.551274
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 2.809222,
+   "gain_per_cost": 0.002809,
+   "delta_pooled_ci": [
+    0.386055,
+    0.451689
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.513756,
+   "ci95": [
+    0.505134,
+    0.521278
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 2.675811,
+   "gain_per_cost": 0.002676,
+   "delta_pooled_ci": [
+    0.301708,
+    0.382947
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.380422,
+   "ci95": [
+    0.365747,
+    0.388984
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 1.981366,
+   "gain_per_cost": 0.001981,
+   "delta_pooled_ci": [
+    0.225006,
+    0.290936
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.57649,
+   "ci95": [
+    0.566126,
+    0.58443
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 3.002553,
+   "gain_per_cost": 0.003003,
+   "delta_pooled_ci": [
+    0.414967,
+    0.483785
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.262167,
+   "ci95": [
+    0.221422,
+    0.305425
+   ],
+   "promoted": 10,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.8333,
+   "gain_per_1k_calls": 21.84727,
+   "gain_per_cost": 0.007282,
+   "delta_pooled_ci": [
+    -0.039582,
+    0.229361
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.45851,
+   "ci95": [
+    0.414941,
+    0.503276
+   ],
+   "promoted": 8,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.6667,
+   "gain_per_1k_calls": 38.209189,
+   "gain_per_cost": 0.012736,
+   "delta_pooled_ci": [
+    0.354368,
+    0.436777
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.373854,
+   "ci95": [
+    0.358677,
+    0.389032
+   ],
+   "promoted": 2,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.1667,
+   "gain_per_1k_calls": 31.154541,
+   "gain_per_cost": 0.010385,
+   "delta_pooled_ci": [
+    -0.340886,
+    -0.046566
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.287832,
+   "ci95": [
+    0.222111,
+    0.353553
+   ],
+   "promoted": 4,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.3333,
+   "gain_per_1k_calls": 23.98603,
+   "gain_per_cost": 0.007995,
+   "delta_pooled_ci": [
+    -0.340268,
+    0.042388
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.290491,
+   "ci95": [
+    0.22678,
+    0.356493
+   ],
+   "promoted": 9,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.75,
+   "gain_per_1k_calls": 24.20758,
+   "gain_per_cost": 0.008069,
+   "delta_pooled_ci": [
+    0.051326,
+    0.255124
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.382847,
+   "ci95": [
+    0.354664,
+    0.408812
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.75,
+   "gain_per_1k_calls": 7.975974,
+   "gain_per_cost": 0.002659,
+   "delta_pooled_ci": [
+    0.059911,
+    0.246951
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.527859,
+   "ci95": [
+    0.493628,
+    0.550792
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8333,
+   "gain_per_1k_calls": 10.997054,
+   "gain_per_cost": 0.003666,
+   "delta_pooled_ci": [
+    0.345443,
+    0.489555
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.475362,
+   "ci95": [
+    0.426473,
+    0.516019
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.9375,
+   "gain_per_1k_calls": 9.903374,
+   "gain_per_cost": 0.003301,
+   "delta_pooled_ci": [
+    0.362766,
+    0.460057
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.364782,
+   "ci95": [
+    0.342022,
+    0.382982
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8125,
+   "gain_per_1k_calls": 7.599631,
+   "gain_per_cost": 0.002533,
+   "delta_pooled_ci": [
+    0.083595,
+    0.26156
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.485021,
+   "ci95": [
+    0.393513,
+    0.559933
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.7917,
+   "gain_per_1k_calls": 10.104607,
+   "gain_per_cost": 0.003368,
+   "delta_pooled_ci": [
+    0.229749,
+    0.395449
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.428881,
+   "ci95": [
+    0.389669,
+    0.449957
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.875,
+   "gain_per_1k_calls": 2.233758,
+   "gain_per_cost": 0.000745,
+   "delta_pooled_ci": [
+    0.293101,
+    0.359983
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.539371,
+   "ci95": [
+    0.517018,
+    0.551274
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.8594,
+   "gain_per_1k_calls": 2.809222,
+   "gain_per_cost": 0.000936,
+   "delta_pooled_ci": [
+    0.386055,
+    0.451689
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.513756,
+   "ci95": [
+    0.505134,
+    0.521278
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.7708,
+   "gain_per_1k_calls": 2.675811,
+   "gain_per_cost": 0.000892,
+   "delta_pooled_ci": [
+    0.301708,
+    0.382947
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.380422,
+   "ci95": [
+    0.365747,
+    0.388984
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.8594,
+   "gain_per_1k_calls": 1.981366,
+   "gain_per_cost": 0.00066,
+   "delta_pooled_ci": [
+    0.225006,
+    0.290936
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.57649,
+   "ci95": [
+    0.566126,
+    0.58443
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.8385,
+   "gain_per_1k_calls": 3.002553,
+   "gain_per_cost": 0.001001,
+   "delta_pooled_ci": [
+    0.414967,
+    0.483785
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.262167,
+   "ci95": [
+    0.221422,
+    0.305425
+   ],
+   "promoted": 10,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.8333,
+   "gain_per_1k_calls": 21.84727,
+   "gain_per_cost": 0.007282,
+   "delta_pooled_ci": [
+    -0.039582,
+    0.229361
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.45851,
+   "ci95": [
+    0.414941,
+    0.503276
+   ],
+   "promoted": 8,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.6667,
+   "gain_per_1k_calls": 38.209189,
+   "gain_per_cost": 0.012736,
+   "delta_pooled_ci": [
+    0.354368,
+    0.436777
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.373854,
+   "ci95": [
+    0.358677,
+    0.389032
+   ],
+   "promoted": 2,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.1667,
+   "gain_per_1k_calls": 31.154541,
+   "gain_per_cost": 0.010385,
+   "delta_pooled_ci": [
+    -0.340886,
+    -0.046566
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.287832,
+   "ci95": [
+    0.222111,
+    0.353553
+   ],
+   "promoted": 4,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.3333,
+   "gain_per_1k_calls": 23.98603,
+   "gain_per_cost": 0.007995,
+   "delta_pooled_ci": [
+    -0.340268,
+    0.042388
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.290491,
+   "ci95": [
+    0.22678,
+    0.356493
+   ],
+   "promoted": 9,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.75,
+   "gain_per_1k_calls": 24.20758,
+   "gain_per_cost": 0.008069,
+   "delta_pooled_ci": [
+    0.051326,
+    0.255124
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.382847,
+   "ci95": [
+    0.354664,
+    0.408812
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.75,
+   "gain_per_1k_calls": 7.975974,
+   "gain_per_cost": 0.002659,
+   "delta_pooled_ci": [
+    0.059911,
+    0.246951
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.527859,
+   "ci95": [
+    0.493628,
+    0.550792
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8333,
+   "gain_per_1k_calls": 10.997054,
+   "gain_per_cost": 0.003666,
+   "delta_pooled_ci": [
+    0.345443,
+    0.489555
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.475362,
+   "ci95": [
+    0.426473,
+    0.516019
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.9375,
+   "gain_per_1k_calls": 9.903374,
+   "gain_per_cost": 0.003301,
+   "delta_pooled_ci": [
+    0.362766,
+    0.460057
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.364782,
+   "ci95": [
+    0.342022,
+    0.382982
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8125,
+   "gain_per_1k_calls": 7.599631,
+   "gain_per_cost": 0.002533,
+   "delta_pooled_ci": [
+    0.083595,
+    0.26156
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.485021,
+   "ci95": [
+    0.393513,
+    0.559933
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.7917,
+   "gain_per_1k_calls": 10.104607,
+   "gain_per_cost": 0.003368,
+   "delta_pooled_ci": [
+    0.229749,
+    0.395449
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.428881,
+   "ci95": [
+    0.389669,
+    0.449957
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.875,
+   "gain_per_1k_calls": 2.233758,
+   "gain_per_cost": 0.000745,
+   "delta_pooled_ci": [
+    0.293101,
+    0.359983
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.539371,
+   "ci95": [
+    0.517018,
+    0.551274
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.8594,
+   "gain_per_1k_calls": 2.809222,
+   "gain_per_cost": 0.000936,
+   "delta_pooled_ci": [
+    0.386055,
+    0.451689
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.513756,
+   "ci95": [
+    0.505134,
+    0.521278
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.7708,
+   "gain_per_1k_calls": 2.675811,
+   "gain_per_cost": 0.000892,
+   "delta_pooled_ci": [
+    0.301708,
+    0.382947
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.380422,
+   "ci95": [
+    0.365747,
+    0.388984
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.8594,
+   "gain_per_1k_calls": 1.981366,
+   "gain_per_cost": 0.00066,
+   "delta_pooled_ci": [
+    0.225006,
+    0.290936
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.57649,
+   "ci95": [
+    0.566126,
+    0.58443
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.8385,
+   "gain_per_1k_calls": 3.002553,
+   "gain_per_cost": 0.001001,
+   "delta_pooled_ci": [
+    0.414967,
+    0.483785
+   ],
+   "nc_passed": true
+  }
+ ],
+ "gamed": [
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": -0.29372,
+   "ci95": [
+    -0.383816,
+    -0.195793
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -24.476637,
+   "gain_per_cost": -0.024477,
+   "delta_pooled_ci": [
+    -0.386217,
+    -0.191004
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.401871,
+   "ci95": [
+    0.320186,
+    0.466429
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 33.489285,
+   "gain_per_cost": 0.033489,
+   "delta_pooled_ci": [
+    0.31858,
+    0.464083
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": -1.177519,
+   "ci95": [
+    -1.359569,
+    -0.981517
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -98.126621,
+   "gain_per_cost": -0.098127,
+   "delta_pooled_ci": [
+    -1.352059,
+    -0.966894
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": -1.275805,
+   "ci95": [
+    -1.521841,
+    -1.016774
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -106.317106,
+   "gain_per_cost": -0.106317,
+   "delta_pooled_ci": [
+    -1.516828,
+    -1.02901
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.055077,
+   "ci95": [
+    -0.02957,
+    0.135622
+   ],
+   "promoted": 12,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 4.589722,
+   "gain_per_cost": 0.00459,
+   "delta_pooled_ci": [
+    -0.03005,
+    0.134628
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": -0.627892,
+   "ci95": [
+    -0.69302,
+    -0.548568
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": -13.08108,
+   "gain_per_cost": -0.013081,
+   "delta_pooled_ci": [
+    -0.635294,
+    -0.522435
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.475378,
+   "ci95": [
+    0.447634,
+    0.503046
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 9.903707,
+   "gain_per_cost": 0.009904,
+   "delta_pooled_ci": [
+    0.310267,
+    0.446651
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.440312,
+   "ci95": [
+    0.396567,
+    0.47787
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 9.173169,
+   "gain_per_cost": 0.009173,
+   "delta_pooled_ci": [
+    0.351785,
+    0.445534
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.324801,
+   "ci95": [
+    0.27008,
+    0.36461
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 6.766689,
+   "gain_per_cost": 0.006767,
+   "delta_pooled_ci": [
+    0.1837,
+    0.31153
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.103909,
+   "ci95": [
+    0.048272,
+    0.153823
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 2.164766,
+   "gain_per_cost": 0.002165,
+   "delta_pooled_ci": [
+    0.036794,
+    0.122628
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.372366,
+   "ci95": [
+    0.337261,
+    0.400395
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 1.939405,
+   "gain_per_cost": 0.001939,
+   "delta_pooled_ci": [
+    0.255886,
+    0.319915
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.215828,
+   "ci95": [
+    0.191078,
+    0.235302
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 1.124102,
+   "gain_per_cost": 0.001124,
+   "delta_pooled_ci": [
+    0.144842,
+    0.200711
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.210737,
+   "ci95": [
+    0.187394,
+    0.234353
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 1.09759,
+   "gain_per_cost": 0.001098,
+   "delta_pooled_ci": [
+    0.156405,
+    0.208118
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.359986,
+   "ci95": [
+    0.347761,
+    0.369664
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 1.874929,
+   "gain_per_cost": 0.001875,
+   "delta_pooled_ci": [
+    0.247599,
+    0.314006
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "none",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.543915,
+   "ci95": [
+    0.511292,
+    0.566976
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 1.0,
+   "gain_per_1k_calls": 2.832892,
+   "gain_per_cost": 0.002833,
+   "delta_pooled_ci": [
+    0.439851,
+    0.506834
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.262167,
+   "ci95": [
+    0.221422,
+    0.305425
+   ],
+   "promoted": 10,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.8333,
+   "gain_per_1k_calls": 21.84727,
+   "gain_per_cost": 0.007282,
+   "delta_pooled_ci": [
+    -0.039582,
+    0.229361
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.465169,
+   "ci95": [
+    0.430068,
+    0.496946
+   ],
+   "promoted": 11,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.9167,
+   "gain_per_1k_calls": 38.764045,
+   "gain_per_cost": 0.012921,
+   "delta_pooled_ci": [
+    0.424076,
+    0.485457
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": -0.37527,
+   "ci95": [
+    -0.466288,
+    -0.293016
+   ],
+   "promoted": 5,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.4167,
+   "gain_per_1k_calls": -31.272535,
+   "gain_per_cost": -0.010424,
+   "delta_pooled_ci": [
+    -0.468653,
+    -0.303104
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.2655,
+   "ci95": [
+    0.186697,
+    0.335519
+   ],
+   "promoted": 8,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.6667,
+   "gain_per_1k_calls": 22.12501,
+   "gain_per_cost": 0.007375,
+   "delta_pooled_ci": [
+    -0.394232,
+    0.105061
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.146676,
+   "ci95": [
+    0.045957,
+    0.235428
+   ],
+   "promoted": 8,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.6667,
+   "gain_per_1k_calls": 12.222961,
+   "gain_per_cost": 0.004074,
+   "delta_pooled_ci": [
+    -0.034283,
+    0.159413
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.284288,
+   "ci95": [
+    0.26212,
+    0.309867
+   ],
+   "promoted": 11,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8333,
+   "gain_per_1k_calls": 5.922674,
+   "gain_per_cost": 0.001974,
+   "delta_pooled_ci": [
+    0.068395,
+    0.226141
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.475378,
+   "ci95": [
+    0.447634,
+    0.503046
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8958,
+   "gain_per_1k_calls": 9.903707,
+   "gain_per_cost": 0.003301,
+   "delta_pooled_ci": [
+    0.310267,
+    0.446651
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.440312,
+   "ci95": [
+    0.396567,
+    0.47787
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.9583,
+   "gain_per_1k_calls": 9.173169,
+   "gain_per_cost": 0.003058,
+   "delta_pooled_ci": [
+    0.351785,
+    0.445534
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.324801,
+   "ci95": [
+    0.27008,
+    0.36461
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.8958,
+   "gain_per_1k_calls": 6.766689,
+   "gain_per_cost": 0.002256,
+   "delta_pooled_ci": [
+    0.1837,
+    0.31153
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.103909,
+   "ci95": [
+    0.048272,
+    0.153823
+   ],
+   "promoted": 12,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.9375,
+   "gain_per_1k_calls": 2.164766,
+   "gain_per_cost": 0.000722,
+   "delta_pooled_ci": [
+    0.036794,
+    0.122628
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.372366,
+   "ci95": [
+    0.337261,
+    0.400395
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.9219,
+   "gain_per_1k_calls": 1.939405,
+   "gain_per_cost": 0.000646,
+   "delta_pooled_ci": [
+    0.255886,
+    0.319915
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.215828,
+   "ci95": [
+    0.191078,
+    0.235302
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.9427,
+   "gain_per_1k_calls": 1.124102,
+   "gain_per_cost": 0.000375,
+   "delta_pooled_ci": [
+    0.144842,
+    0.200711
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.210737,
+   "ci95": [
+    0.187394,
+    0.234353
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.9531,
+   "gain_per_1k_calls": 1.09759,
+   "gain_per_cost": 0.000366,
+   "delta_pooled_ci": [
+    0.156405,
+    0.208118
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.359986,
+   "ci95": [
+    0.347761,
+    0.369664
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.9323,
+   "gain_per_1k_calls": 1.874929,
+   "gain_per_cost": 0.000625,
+   "delta_pooled_ci": [
+    0.247599,
+    0.314006
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.543915,
+   "ci95": [
+    0.511292,
+    0.566976
+   ],
+   "promoted": 12,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.9531,
+   "gain_per_1k_calls": 2.832892,
+   "gain_per_cost": 0.000944,
+   "delta_pooled_ci": [
+    0.439851,
+    0.506834
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.210222,
+    0.042011
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.331474,
+    0.047904
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.373362,
+    -0.103851
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.413074,
+    -0.062004
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 1,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 12,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.124207,
+    0.074796
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.128854,
+    -0.011844
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.193249,
+    -0.039558
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.140987,
+    -0.000692
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.233678,
+    -0.058542
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 4,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 48,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.098215,
+    0.011913
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 1,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.137628,
+    -0.073424
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 2,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.176532,
+    -0.097924
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 3,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.124886,
+    -0.054205
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 4,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.201737,
+    -0.125557
+   ],
+   "nc_passed": true
+  },
+  {
+   "cond": "paired_nc",
+   "n_cand": 16,
+   "gens": 12,
+   "seed": 5,
+   "mean_private_delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "promoted": 0,
+   "verifier_calls": 192,
+   "mean_sel_intensity": 0.0,
+   "gain_per_1k_calls": 0.0,
+   "gain_per_cost": 0.0,
+   "delta_pooled_ci": [
+    -0.104121,
+    -0.040643
+   ],
+   "nc_passed": true
+  }
+ ]
+}

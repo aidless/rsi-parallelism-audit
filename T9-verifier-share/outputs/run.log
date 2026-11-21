@@ -1,0 +1,17 @@
+[2025Q4] total=15038
+[2025Q4] union_api=8317 offset=6496 fetched=200
+[2025Q4] n=200 P1=2 P2=1 P3=9 NONE=188 est P1=83 P2=42 P3=374
+[2026Q1] total=17135
+[2026Q1] union_api=9454 offset=9004 fetched=200
+[2026Q1] n=200 P1=3 P2=0 P3=26 NONE=171 est P1=142 P2=0 P3=1229
+[2026Q2] total=22246
+[2026Q2] union_api=12603 offset=2376 fetched=200
+[2026Q2] n=200 P1=12 P2=1 P3=18 NONE=169 est P1=756 P2=63 P3=1134
+[2026Q3] total=19989
+[2026Q3] union_api=11718 offset=9369 fetched=200
+[2026Q3] n=200 P1=10 P2=0 P3=33 NONE=157 est P1=586 P2=0 P3=1933
+2025Q4: total=15038 P1est=83 (55.19/10k) P2est=42 (27.93/10k) P3est=374 (248.7/10k)
+2026Q1: total=17135 P1est=142 (82.87/10k) P2est=0 (0.0/10k) P3est=1229 (717.25/10k)
+2026Q2: total=22246 P1est=756 (339.84/10k) P2est=63 (28.32/10k) P3est=1134 (509.75/10k)
+2026Q3: total=19989 P1est=586 (293.16/10k) P2est=0 (0.0/10k) P3est=1933 (967.03/10k)
+-> outputs

@@ -1,0 +1,14 @@
+{
+  "claims": 5,
+  "id_title_verified": 5,
+  "quotes_checked": 19,
+  "all_quotes_in_abstract": true,
+  "ids": [
+    "2605.20744",
+    "2610.15778",
+    "2610.15924",
+    "2611.04090",
+    "2611.15433"
+  ],
+  "result": "PASS"
+}

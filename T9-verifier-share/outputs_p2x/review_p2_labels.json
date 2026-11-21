@@ -1,0 +1,72 @@
+{
+  "2512.07450v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we propose an explainability-driven verifier for GNN unlearning；贡献动词宾语中心名词=verifier"
+  },
+  "2512.12474v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we present a novel kick scoring rubric；rubric 属 verifier 类词，按字面口径命中（领域为跆拳道评分规则，非 LLM 验证器）"
+  },
+  "2512.10415v2": {
+    "is_tier": "no",
+    "tier": "P3",
+    "note": "we present the first large-scale study of jailbreaking LLM-based automated code evaluators；宾语中心名词是 study，evaluator 只是 of 的宾语，非贡献对象"
+  },
+  "2602.06291v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we propose Consequence-Based Utility, an oracle-free evaluator that ...；同位语 evaluator，贡献对象是评估器"
+  },
+  "2602.11750v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we develop MUSE (Mobile User Satisfaction Evaluator), an automated framework ...；贡献含 evaluator（基准论文中的配套评估器）"
+  },
+  "2602.11570v1": {
+    "is_tier": "no",
+    "tier": "P3",
+    "note": "we propose a process-aware RLVR training paradigm utilizing verifiers selected via PRIME；中心名词是 paradigm，verifier 被 utilize，非贡献对象"
+  },
+  "2602.11146v2": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we propose DiNa-LRM, a diffusion-native latent reward model that ...；同位语 reward model"
+  },
+  "2602.05068v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "We propose a hybrid verifier in a branch-and-bound (BaB) framework；宾语中心名词=verifier"
+  },
+  "2602.05327v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we propose the Monte-Carlo Critic (MC-Critic), a plug-and-play auxiliary value estimator；critic 属 verifier 类词（RL critic，按字面口径命中）"
+  },
+  "2602.10623v2": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "We propose Bayesian Non-Negative Reward Model (BNRM), a principled reward modeling framework；中心名词 reward model"
+  },
+  "2604.24357v4": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "We introduce DPRM (Doob h-transform Process Reward Model), a plug-in token-ordering module；名称即 Process Reward Model，属 verifier 类词"
+  },
+  "2604.24964v1": {
+    "is_tier": "no",
+    "tier": "P3",
+    "note": "We introduce a Trajectory Efficiency metric (rubric score per step)；中心名词是 metric，rubric 只是修饰"
+  },
+  "2604.25872v1": {
+    "is_tier": "no",
+    "tier": "P3",
+    "note": "we develop reward model evaluation metrics that account for ...；中心名词是 metrics，reward model 只是修饰"
+  },
+  "2604.18176v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "we propose the verification-aware reward model (VRM) tailored for RLVR；中心名词 reward model"
+  }
+}

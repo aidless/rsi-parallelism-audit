@@ -1,0 +1,237 @@
+{
+  "config": {
+    "sigma": 0.5,
+    "k": 8,
+    "nstar": 16,
+    "nodes": 256,
+    "mc_seeds_check": 20000,
+    "input": "/home/liuzewen/F:\\deepseek/analyses/tracks/rsi-after/T10-independence/independence.json"
+  },
+  "a_table_noiseless": {
+    "1": 0.0,
+    "2": 0.56419,
+    "4": 1.029375,
+    "8": 1.4236,
+    "16": 1.765991,
+    "32": 2.069669,
+    "64": 2.343733
+  },
+  "closed_forms": {
+    "kish": "N/(1+(N-1)*rho)",
+    "delta_exact": "sqrt(1-rho)*N*Integral phi(x)*Phi(x*sqrt(1-rho)/sigma)^(N-1) dx; rho=1 -> 0",
+    "delta_noiseless": "sqrt(1-rho)*a_N, a_N=E[max of N iid N(0,1)]",
+    "inverse_noiseless": "A^{-1}(a_N*sqrt(1-rho)), A(m)=a_m interpolated in log m, clamped [1,N]"
+  },
+  "per_rho_at_nstar": [
+    {
+      "rho": 0.0,
+      "kish": 16.0,
+      "inverse_stored": 16.0,
+      "inverse_replicated": 16.0,
+      "inverse_closed_noiseless": 16.0,
+      "inverse_closed_noise_cancel": 16.0,
+      "delta_stored": 1.587066,
+      "delta_exact_noisy": 1.579551,
+      "delta_closed_noiseless": 1.765991,
+      "ratio_stored_over_kish": 1.0,
+      "factor_interp_mc": 1.0,
+      "factor_noise_baseline": 1.0,
+      "factor_shape_functional": 1.0,
+      "rho_kish_equivalent": 0.0
+    },
+    {
+      "rho": 0.25,
+      "kish": 3.3684,
+      "inverse_stored": 9.5102,
+      "inverse_replicated": 9.5102,
+      "inverse_closed_noiseless": 9.9107,
+      "inverse_closed_noise_cancel": 8.9827,
+      "delta_stored": 1.364698,
+      "delta_exact_noisy": 1.324494,
+      "delta_closed_noiseless": 1.529393,
+      "ratio_stored_over_kish": 2.8233,
+      "factor_interp_mc": 1.0587,
+      "factor_noise_baseline": 0.9064,
+      "factor_shape_functional": 2.9422,
+      "rho_kish_equivalent": 0.0455
+    },
+    {
+      "rho": 0.5,
+      "kish": 1.8824,
+      "inverse_stored": 5.3257,
+      "inverse_replicated": 5.3257,
+      "inverse_closed_noiseless": 5.8826,
+      "inverse_closed_noise_cancel": 4.8584,
+      "delta_stored": 1.025709,
+      "delta_exact_noisy": 1.019596,
+      "delta_closed_noiseless": 1.248744,
+      "ratio_stored_over_kish": 2.8293,
+      "factor_interp_mc": 1.0962,
+      "factor_noise_baseline": 0.8259,
+      "factor_shape_functional": 3.1251,
+      "rho_kish_equivalent": 0.1336
+    },
+    {
+      "rho": 0.75,
+      "kish": 1.3061,
+      "inverse_stored": 2.6222,
+      "inverse_replicated": 2.6222,
+      "inverse_closed_noiseless": 3.2161,
+      "inverse_closed_noise_cancel": 2.4416,
+      "delta_stored": 0.617964,
+      "delta_exact_noisy": 0.624372,
+      "delta_closed_noiseless": 0.882996,
+      "ratio_stored_over_kish": 2.0076,
+      "factor_interp_mc": 1.074,
+      "factor_noise_baseline": 0.7592,
+      "factor_shape_functional": 2.4624,
+      "rho_kish_equivalent": 0.3401
+    },
+    {
+      "rho": 0.9,
+      "kish": 1.1034,
+      "inverse_stored": 1.6239,
+      "inverse_replicated": 1.6239,
+      "inverse_closed_noiseless": 1.986,
+      "inverse_closed_noise_cancel": 1.5069,
+      "delta_stored": 0.302826,
+      "delta_exact_noisy": 0.298507,
+      "delta_closed_noiseless": 0.558456,
+      "ratio_stored_over_kish": 1.4717,
+      "factor_interp_mc": 1.0777,
+      "factor_noise_baseline": 0.7588,
+      "factor_shape_functional": 1.7998,
+      "rho_kish_equivalent": 0.5902
+    },
+    {
+      "rho": 0.945,
+      "kish": 1.0544,
+      "inverse_stored": 1.4207,
+      "inverse_replicated": 1.4207,
+      "inverse_closed_noiseless": 1.6633,
+      "inverse_closed_noise_cancel": 1.2733,
+      "delta_stored": 0.197282,
+      "delta_exact_noisy": 0.175874,
+      "delta_closed_noiseless": 0.414162,
+      "ratio_stored_over_kish": 1.3474,
+      "factor_interp_mc": 1.1158,
+      "factor_noise_baseline": 0.7655,
+      "factor_shape_functional": 1.5776,
+      "rho_kish_equivalent": 0.6841
+    },
+    {
+      "rho": 0.99,
+      "kish": 1.0095,
+      "inverse_stored": 1.1091,
+      "inverse_replicated": 1.1091,
+      "inverse_closed_noiseless": 1.2423,
+      "inverse_closed_noise_cancel": 1.0487,
+      "delta_stored": 0.035424,
+      "delta_exact_noisy": 0.034634,
+      "delta_closed_noiseless": 0.176599,
+      "ratio_stored_over_kish": 1.0987,
+      "factor_interp_mc": 1.0576,
+      "factor_noise_baseline": 0.8442,
+      "factor_shape_functional": 1.2307,
+      "rho_kish_equivalent": 0.8951
+    },
+    {
+      "rho": 1.0,
+      "kish": 1.0,
+      "inverse_stored": 1.0409,
+      "inverse_replicated": 1.0409,
+      "inverse_closed_noiseless": 1.0,
+      "inverse_closed_noise_cancel": 1.0,
+      "delta_stored": 0.0,
+      "delta_exact_noisy": 0.0,
+      "delta_closed_noiseless": 0.0,
+      "ratio_stored_over_kish": 1.0409,
+      "factor_interp_mc": 1.0409,
+      "factor_noise_baseline": 1.0,
+      "factor_shape_functional": 1.0,
+      "rho_kish_equivalent": 0.9581
+    }
+  ],
+  "mid_gap_decomposition": {
+    "rho": 0.5,
+    "ratio": 2.8293,
+    "factor_interp_mc": 1.0962,
+    "factor_noise_baseline": 0.8259,
+    "factor_shape_functional": 3.1251,
+    "reading": "ratio = interp × noise_baseline × shape；2.8x 主因是 shape（极值统计与有理衰减是不同泛函），另两因子是口径/数值伪影"
+  },
+  "collapse_end": {
+    "rho": 0.945,
+    "kish": 1.0544,
+    "inverse": 1.4207,
+    "ratio": 1.3474
+  },
+  "monotonicity": {
+    "stored_grid_violations_gt_0.05": [],
+    "closed_form_monotone_all_n": true,
+    "closed_form_bounds_1_to_n_all_n": true
+  },
+  "scope": "解析底物（合成 best-of-N），rho 为人为自变量；一切数字不外推真实系统。",
+  "selfcheck": [
+    {
+      "id": "A1",
+      "ok": true,
+      "detail": "Kish(16,0)=16.000000 应=16"
+    },
+    {
+      "id": "A2",
+      "ok": true,
+      "detail": "Kish(16,1)=1.000000 应=1"
+    },
+    {
+      "id": "A3",
+      "ok": true,
+      "detail": "Kish 对 ρ 严格递减（201 点）"
+    },
+    {
+      "id": "A4",
+      "ok": true,
+      "detail": "闭式反解(ρ=0,N=16)=16.0000 应≈16(±2%)"
+    },
+    {
+      "id": "A5",
+      "ok": true,
+      "detail": "闭式反解(ρ=1,N=16)=1.000000 应=1"
+    },
+    {
+      "id": "A6",
+      "ok": true,
+      "detail": "闭式反解对 ρ 单调不增（401 点）"
+    },
+    {
+      "id": "A7",
+      "ok": true,
+      "detail": "求积vsMC最大相对差=0.0058 (<2%); (0.0,16): exact=1.5796 mc=1.5739±0.0047; (0.5,16): exact=1.0196 mc=1.0180±0.0036; (0.945,16): exact=0.1759 mc=0.1752±0.0016; (0.5,4): exact=0.5943 mc=0.5909±0.0040"
+    },
+    {
+      "id": "A8",
+      "ok": true,
+      "detail": "|Δ_exact−Δ_stored| max=0.0828 @ (rho=0.25,n=2) stored=0.340392 exact=0.4231 (<0.10; 400 seeds×56 格)"
+    },
+    {
+      "id": "A9",
+      "ok": true,
+      "detail": "ρ=0.5: Kish=1.8824 反解(复刻)=5.3257 ratio=2.8293 应≈2.829"
+    },
+    {
+      "id": "A10",
+      "ok": true,
+      "detail": "artifact(0.9053)×shape(3.1251)=2.829269 == ratio(2.829269)"
+    },
+    {
+      "id": "A11",
+      "ok": true,
+      "detail": "噪声抵消闭式(ρ=0.5)=4.8584，存储反解=5.3257，伪影=1.096 (<12%)"
+    },
+    {
+      "id": "A12",
+      "ok": true,
+      "detail": "interp(1.0962)×noise_baseline(0.8259)×shape(3.1251) == ratio(2.829269)"
+    }
+  ]
+}

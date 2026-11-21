@@ -1,0 +1,81 @@
+{
+  "verdict": "UNIT_MISLABELED",
+  "source_formula": {
+    "est": "round(union_api * hits / n)  [verifier_share.py:363]",
+    "per_10k": "round(10000 * est / total, 2)  [verifier_share.py:380-382]",
+    "ci": "round(Wilson比例 * union_api) = 篇数区间  [verifier_share.py:378-379]"
+  },
+  "q3retry": {
+    "union_api": 11717,
+    "sample_n": 600,
+    "total": 19989,
+    "rows": {
+      "P1": {
+        "hits": 19,
+        "est_csv": 371,
+        "est_calc": 371,
+        "est_match": true,
+        "per_10k_csv": 185.6,
+        "per_10k_calc": 185.6,
+        "per_10k_match": true
+      },
+      "P2": {
+        "hits": 1,
+        "est_csv": 20,
+        "est_calc": 20,
+        "est_match": true,
+        "per_10k_csv": 10.01,
+        "per_10k_calc": 10.01,
+        "per_10k_match": true,
+        "ci_articles": [
+          3,
+          110
+        ],
+        "ci_per_10k": [
+          1.5,
+          55.03
+        ]
+      },
+      "P3": {
+        "hits": 93,
+        "est_csv": 1816,
+        "est_calc": 1816,
+        "est_match": true,
+        "per_10k_csv": 908.5,
+        "per_10k_calc": 908.5,
+        "per_10k_match": true
+      }
+    }
+  },
+  "doc_claim": {
+    "P1_per_10k": 371,
+    "P2_per_10k": 20,
+    "P3_per_10k": 1816,
+    "P2_ci_articles_as_per10k": [
+      3,
+      110
+    ]
+  },
+  "checks": {
+    "P1_claim_is_est_not_rate": true,
+    "P2_claim_is_est_not_rate": true,
+    "P3_claim_is_est_not_rate": true,
+    "CI_is_articles_not_per10k": true,
+    "internal_contradiction_L111_vs_L116": true
+  },
+  "p2x_p2_per_10k_nonzero": [
+    16.62,
+    38.52,
+    22.48
+  ],
+  "p2x_p2_rate_range": [
+    16.62,
+    38.52
+  ],
+  "corrected_reading": {
+    "P1": "命中 19 条，估计 371 篇 = 185.6/万",
+    "P2": "命中 1 条，估计 20 篇 = 10.01/万，CI篇 [3, 110] → CI每万 [1.5, 55.03]",
+    "P3": "命中 93 条，估计 1816 篇 = 908.5/万"
+  },
+  "note": "est 是外推估计篇数（分母 union_api），per_10k 是每万篇数（分母 total）。README/SUMMARY 把 est 篇数写成 '/万'、把 CI 篇数区间写成每万区间，数值口径错；但『P2 极稀疏、非真实零、落配角位』的定性结论不受影响。"
+}

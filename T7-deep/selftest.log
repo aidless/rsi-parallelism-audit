@@ -1,0 +1,1 @@
+SELF-TEST PASS | multiple_good=4.0 multiple_red=1.0 cross_check_red_hits=1 verdict_low=YES: 4x only at low rho verdict_high=NO: 4x holds at high rho too

@@ -1,0 +1,32 @@
+
+mode            N relax                    rho  pass candP  rate/1k  r16/r4  reasons
+multi-anchor    4 {"alpha": 0.5}          0.54  0.42  0.17    9.049     nan  PASS=8.33, NO_GAI=31.67, REGRES=8
+multi-anchor    4 {"burden_off": true}    0.54  0.58  0.24    7.765     nan  PASS=11.33, NO_GAI=31.67, NOT_SI=5
+multi-anchor    4 {"ess_off": true}       0.54  0.42  0.17    9.049     nan  PASS=8.33, NO_GAI=31.67, NOT_SI=5, REGRES=3
+multi-anchor    4 {"floor_off": true}     0.54  0.42  0.17    9.049     nan  PASS=8.33, NO_GAI=31.67, NOT_SI=5, REGRES=3
+multi-anchor    4 {}                      0.54  0.42  0.17    9.049     nan  PASS=8.33, NO_GAI=31.67, NOT_SI=5, REGRES=3
+multi-anchor   16 {"alpha": 0.5}          0.52  0.89  0.16    2.229   0.246  PASS=31, NO_GAI=128.67, BELOW_=0.33, REGRES=32
+multi-anchor   16 {"burden_off": true}    0.52  0.97  0.24    2.219   0.286  PASS=47, NO_GAI=128.67, BELOW_=0.33, NOT_SI=16
+multi-anchor   16 {"ess_off": true}       0.52  0.89  0.16    2.229   0.246  PASS=30.67, NO_GAI=128.67, BELOW_=0.33, NOT_SI=16, REGRES=16.33
+multi-anchor   16 {"floor_off": true}     0.52  0.89  0.16    2.229   0.246  PASS=30.67, NO_GAI=128.67, NOT_SI=16.33, REGRES=16.33
+multi-anchor   16 {}                      0.52  0.89  0.16    2.229   0.246  PASS=30.67, NO_GAI=128.67, BELOW_=0.33, NOT_SI=16, REGRES=16.33
+single-small    4 {"alpha": 0.5}          0.88  0.97  0.86   10.017     nan  PASS=41.33, NO_GAI=4.33, REGRES=2.33
+single-small    4 {"burden_off": true}    0.88  0.97  0.90   10.017     nan  PASS=43, NO_GAI=4.33, NOT_SI=0.67
+single-small    4 {"ess_off": true}       0.88  0.97  0.86   10.017     nan  PASS=41.33, NO_GAI=4.33, NOT_SI=0.67, REGRES=1.67
+single-small    4 {"floor_off": true}     0.88  0.97  0.86   10.017     nan  PASS=41.33, NO_GAI=4.33, NOT_SI=0.67, REGRES=1.67
+single-small    4 {}                      0.88  0.97  0.86   10.017     nan  PASS=41.33, NO_GAI=4.33, NOT_SI=0.67, REGRES=1.67
+single-small   16 {"alpha": 0.5}          0.86  1.00  0.83    2.605   0.260  PASS=158.67, NO_GAI=17.33, BELOW_=0.67, REGRES=15.33
+single-small   16 {"burden_off": true}    0.86  1.00  0.87    2.605   0.260  PASS=166.67, NO_GAI=17.33, BELOW_=0.67, NOT_SI=7.33
+single-small   16 {"ess_off": true}       0.86  1.00  0.83    2.605   0.260  PASS=158.67, NO_GAI=17.33, BELOW_=0.67, NOT_SI=7.33, REGRES=8
+single-small   16 {"floor_off": true}     0.86  1.00  0.83    2.605   0.260  PASS=158.67, NO_GAI=17.33, NOT_SI=8, REGRES=8
+single-small   16 {}                      0.86  1.00  0.83    2.605   0.260  PASS=158.67, NO_GAI=17.33, BELOW_=0.67, NOT_SI=7.33, REGRES=8
+structured      4 {"alpha": 0.5}          0.52  0.44  0.13    7.457     nan  PASS=6.33, NO_GAI=35.67, REGRES=6
+structured      4 {"burden_off": true}    0.52  0.56  0.18    7.489     nan  PASS=8.67, NO_GAI=35.67, NOT_SI=3.67
+structured      4 {"ess_off": true}       0.52  0.39  0.11    8.320     nan  PASS=5.33, NO_GAI=35.67, NOT_SI=3.67, REGRES=3.33
+structured      4 {"floor_off": true}     0.52  0.39  0.11    8.320     nan  PASS=5.33, NO_GAI=35.67, NOT_SI=3.67, REGRES=3.33
+structured      4 {}                      0.52  0.39  0.11    8.320     nan  PASS=5.33, NO_GAI=35.67, NOT_SI=3.67, REGRES=3.33
+structured     16 {"alpha": 0.5}          0.54  0.83  0.12    2.375   0.318  PASS=22.33, NO_GAI=148, BELOW_=0.33, REGRES=21.33
+structured     16 {"burden_off": true}    0.54  0.92  0.16    2.291   0.306  PASS=30, NO_GAI=148, BELOW_=0.33, NOT_SI=13.67
+structured     16 {"ess_off": true}       0.54  0.83  0.11    2.375   0.285  PASS=20.67, NO_GAI=148, BELOW_=0.33, NOT_SI=13.67, REGRES=9.33
+structured     16 {"floor_off": true}     0.54  0.83  0.11    2.375   0.285  PASS=20.67, NO_GAI=148, NOT_SI=14, REGRES=9.33
+structured     16 {}                      0.54  0.83  0.11    2.375   0.285  PASS=20.67, NO_GAI=148, BELOW_=0.33, NOT_SI=13.67, REGRES=9.33

@@ -1,0 +1,278 @@
+{
+  "source": "m00253 七挖法全做",
+  "methods": [
+    {
+      "method": "代理合法性",
+      "target": "T10 N_eff 反解 n_cap 硬上界",
+      "verdict": "NO_DEFECT_PHYSICAL_BOUND",
+      "reproduce_published": true,
+      "rho0_at_N": true,
+      "no_spurious_truncation": true,
+      "rows": [
+        {
+          "rho": 0.0,
+          "delta_n16": 1.587066,
+          "neff_published": 16.0,
+          "neff_recomputed": 16.0,
+          "neff_no_cap": 16.0,
+          "cap_changed": false
+        },
+        {
+          "rho": 0.25,
+          "delta_n16": 1.364698,
+          "neff_published": 9.5102,
+          "neff_recomputed": 9.5102,
+          "neff_no_cap": 9.5102,
+          "cap_changed": false
+        },
+        {
+          "rho": 0.5,
+          "delta_n16": 1.025709,
+          "neff_published": 5.3257,
+          "neff_recomputed": 5.3257,
+          "neff_no_cap": 5.3257,
+          "cap_changed": false
+        },
+        {
+          "rho": 0.75,
+          "delta_n16": 0.617964,
+          "neff_published": 2.6222,
+          "neff_recomputed": 2.6222,
+          "neff_no_cap": 2.6222,
+          "cap_changed": false
+        },
+        {
+          "rho": 0.9,
+          "delta_n16": 0.302826,
+          "neff_published": 1.6239,
+          "neff_recomputed": 1.6239,
+          "neff_no_cap": 1.6239,
+          "cap_changed": false
+        },
+        {
+          "rho": 0.945,
+          "delta_n16": 0.197282,
+          "neff_published": 1.4207,
+          "neff_recomputed": 1.4207,
+          "neff_no_cap": 1.4207,
+          "cap_changed": false
+        },
+        {
+          "rho": 0.99,
+          "delta_n16": 0.035424,
+          "neff_published": 1.1091,
+          "neff_recomputed": 1.1091,
+          "neff_no_cap": 1.1091,
+          "cap_changed": false
+        },
+        {
+          "rho": 1.0,
+          "delta_n16": 0.0,
+          "neff_published": 1.0409,
+          "neff_recomputed": 1.0409,
+          "neff_no_cap": 1.0409,
+          "cap_changed": false
+        }
+      ],
+      "note": "T10 的 ≤N 是真物理约束（N 个候选等效独立度上限），与 T12 的 gain比×16（相对收益比可>N、非独立样本数）性质不同；复算确认上界未改变任何 rho>0 的发布读数。"
+    },
+    {
+      "method": "口径漂移",
+      "target": {
+        "baseline": 0.6412,
+        "oracle": 1.1908,
+        "delta": 0.5496
+      },
+      "verdict": "TRACEABLE_NEEDS_SEED_PROVENANCE",
+      "exact_match": true,
+      "reproduction": {
+        "seed": 1001,
+        "n_episodes": 128,
+        "baseline": 0.6412,
+        "oracle": 1.1908,
+        "delta": 0.5496
+      },
+      "delta_sel16_vs_ceil_gap": 0.0006,
+      "floor_confound": true,
+      "note": "seed=1001/n=128 精确复现三元组（误差<1e-4）；天花板可复算，但文档的 seed/源码未落盘；Δ_sel(16)=0.549 与 Δ_ceil=0.5496 数值极近易混用，需显式区分。"
+    },
+    {
+      "method": "多重比较",
+      "target": "T6 词频 +77%/+117% 显著性",
+      "verdict": "DESCRIPTIVE_ONLY_NO_SIGNIFICANCE_TEST",
+      "pct_change": {
+        "ARCH": 77.4,
+        "REC": 4.7,
+        "VER": 117.4
+      },
+      "kendall_tau": {
+        "ARCH": 1.0,
+        "REC": 0.0,
+        "VER": 1.0
+      },
+      "wilson_ci_last_quarter": {
+        "arch": {
+          "hits": [
+            96,
+            90,
+            92,
+            79
+          ],
+          "ci_low": 0.7,
+          "ci_high": 0.858
+        },
+        "rec": {
+          "hits": [
+            86,
+            97,
+            94,
+            97
+          ],
+          "ci_low": 0.915,
+          "ci_high": 0.99
+        },
+        "ver": {
+          "hits": [
+            50,
+            69,
+            84,
+            84
+          ],
+          "ci_low": 0.756,
+          "ci_high": 0.899
+        }
+      },
+      "bonferroni_alpha": 0.0083,
+      "n_tests": 6,
+      "n_quarter_points": 4,
+      "note": "4 个季度点无 CI、无趋势检验、无多重比较校正（3类×4季）；命中率 n=100 无二项 CI。读数只能标描述性趋势，不能写成显著上升。未跑抽样/趋势检验（4 点精确趋势检验需原始论文级计数，CSV 只有 4 个聚合比例）。"
+    },
+    {
+      "method": "配对vs分组",
+      "target": "T3 token 换算 t_fixed 外生假设",
+      "verdict": "ALREADY_COMPLIANT_SENSITIVITY_ANALYSIS",
+      "declared_exogenous": true,
+      "winner_flips_with_tfixed": true,
+      "doc_self_labeled": true,
+      "note": "token 模型参数外生，非实验测量；只做 T7 评估次数口径→token 口径的解析换算。SwarmWorld 真实 token 数仍缺。",
+      "tax_t20_B8": 6.0,
+      "note_detail": "token 参数 t_fixed 纯外生、无实测来源（note 已声明）；答案端点胜者随 t_fixed 完全翻转（0 时群体赢、≥20 全单体赢）。T3.md:188-189 已自我标注为理想化/敏感性分析，未当发现——基本合规，加固点仅是把'外生无实测'同步进 SUMMARY 口径。"
+    },
+    {
+      "method": "机制方向反证",
+      "target": "T9 P2 一致率 10/14=0.714",
+      "verdict": "FALSE_ALARM_DOCUMENT_CORRECT",
+      "agree": 10,
+      "n": 14,
+      "rate": 0.7143,
+      "doc_claim": 0.7143,
+      "missing_ids": 0,
+      "disagreements": [
+        {
+          "id": "2512.10415v2",
+          "pred": "P2",
+          "human": "P3"
+        },
+        {
+          "id": "2602.11570v1",
+          "pred": "P2",
+          "human": "P3"
+        },
+        {
+          "id": "2604.24964v1",
+          "pred": "P2",
+          "human": "P3"
+        },
+        {
+          "id": "2604.25872v1",
+          "pred": "P2",
+          "human": "P3"
+        }
+      ],
+      "note": "正确底物是 outputs_p2x/review_p2.jsonl（14条全命中 labels），agree=10/disagree=4/agreement=0.714。误用 review_sample.jsonl（32条混样本，2条 ABSENT）会算出 0.667/0.571 差点翻案——对照文件必须按语义选、不能按名字相近选。"
+    },
+    {
+      "method": "松弛反事实",
+      "target": "T6 负对照'仍付 N 次判分'精确性",
+      "verdict": "WORDING_NEEDS_PRECISION",
+      "control_valid": true,
+      "candidate_scoring_equal_by_construction": true,
+      "calls_gap_equals_promoted_gap": true,
+      "sealed_random_fewer": true,
+      "delta_main_minus_random": {
+        "1": 0.0,
+        "4": 0.1635,
+        "16": 0.1899
+      },
+      "per_N": [
+        {
+          "N": 1,
+          "candidate_scoring_by_construction": 8,
+          "main_calls_mean": 29.7,
+          "random_calls_mean": 29.7,
+          "main_sealed_mean": 5,
+          "random_sealed_mean": 5
+        },
+        {
+          "N": 4,
+          "candidate_scoring_by_construction": 32,
+          "main_calls_mean": 56.3,
+          "random_calls_mean": 51.7,
+          "main_sealed_mean": 7.33,
+          "random_sealed_mean": 2.33
+        },
+        {
+          "N": 16,
+          "candidate_scoring_by_construction": 128,
+          "main_calls_mean": 152.7,
+          "random_calls_mean": 147.3,
+          "main_sealed_mean": 7.67,
+          "random_sealed_mean": 2.33
+        }
+      ],
+      "note": "'仍付 N 次判分'精确化：候选判分（width×generation）两边严格相同，与选择策略无关；但每次 promoted 多触发一次 public 确认评估 + 一次密封确认，随机选择过闸率低→promoted 少→总 verifier_calls 与密封评估更少。结论：候选判分成本相同（该负对照成立），总评估成本随机侧更少（措辞需精确）。主 Δ 明显高于随机（N=4 0.4855 vs 0.3220），选择动作带来增益成立。"
+    },
+    {
+      "method": "分子分母分解",
+      "target": "T1 77.8 vs 71.4 '禁止相减'",
+      "verdict": "WORDING_TOO_ABSOLUTE",
+      "diff_pp": 6.4,
+      "aligned_dims": [
+        "测试集"
+      ],
+      "misaligned_dims": [
+        "代码版本",
+        "实现",
+        "硬件",
+        "seed数",
+        "max token"
+      ],
+      "within_benchmark_ratios": {
+        "secret_convRSI": 1.256,
+        "secret_recMAS": 1.886,
+        "mbpp_convRSI": 1.613,
+        "mbpp_recMAS": 0.621
+      },
+      "note": "归因层正确：6.4pp 不能归因单一因子（代码/硬件/seed/token 全不对齐）。但'任何相减都是口径错误'过绝——6.4pp 可作跨系统描述差（不同系统在本任务的表观差），只是不可当同口径 A/B 比较、不可归因为算法优劣。建议改为'可相减为跨系统描述差，不可归因为单一因子'。"
+    }
+  ],
+  "summary": {
+    "真缺陷_复算层": [
+      "method2 天花板 seed 溯源缺失"
+    ],
+    "真缺陷_措辞层": [
+      "method3 词频描述性未标注",
+      "method6 负对照措辞需精确",
+      "method7 禁止相减过绝"
+    ],
+    "需谨慎区分": [
+      "method1 T10 上界是真物理约束，非 T12 式代理误标"
+    ],
+    "已合规": [
+      "method4 token 换算已自我标注敏感性"
+    ],
+    "假阳": [
+      "method5 P2 一致率 10/14 文档正确"
+    ]
+  }
+}

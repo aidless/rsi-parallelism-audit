@@ -1,0 +1,192 @@
+{
+  "protocol": {
+    "Ns": [
+      1,
+      4,
+      16
+    ],
+    "seeds": [
+      7,
+      17,
+      27
+    ],
+    "generations": 8,
+    "cost_s": 0.0,
+    "random_select": true
+  },
+  "per_trial": [
+    {
+      "N": 1,
+      "inner_seed": 7,
+      "generations": 8,
+      "verifier_calls": 32,
+      "sealed_evaluations": 7,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.20269,
+      "delta": 0.451259,
+      "rate_per_1k_verifications": 14.101853,
+      "promoted": 6,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.1814,
+      "random_select": true
+    },
+    {
+      "N": 1,
+      "inner_seed": 17,
+      "generations": 8,
+      "verifier_calls": 27,
+      "sealed_evaluations": 3,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.011439,
+      "delta": 0.260009,
+      "rate_per_1k_verifications": 9.629948,
+      "promoted": 1,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.1583,
+      "random_select": true
+    },
+    {
+      "N": 1,
+      "inner_seed": 27,
+      "generations": 8,
+      "verifier_calls": 30,
+      "sealed_evaluations": 5,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.243332,
+      "delta": 0.491901,
+      "rate_per_1k_verifications": 16.396711,
+      "promoted": 4,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.2346,
+      "random_select": true
+    },
+    {
+      "N": 4,
+      "inner_seed": 7,
+      "generations": 8,
+      "verifier_calls": 53,
+      "sealed_evaluations": 4,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.058095,
+      "delta": 0.306665,
+      "rate_per_1k_verifications": 5.786126,
+      "promoted": 3,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.3059,
+      "random_select": true
+    },
+    {
+      "N": 4,
+      "inner_seed": 17,
+      "generations": 8,
+      "verifier_calls": 52,
+      "sealed_evaluations": 3,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.107245,
+      "delta": 0.355814,
+      "rate_per_1k_verifications": 6.842574,
+      "promoted": 2,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.2752,
+      "random_select": true
+    },
+    {
+      "N": 4,
+      "inner_seed": 27,
+      "generations": 8,
+      "verifier_calls": 50,
+      "sealed_evaluations": 0,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.055005,
+      "delta": 0.303574,
+      "rate_per_1k_verifications": 6.071484,
+      "promoted": 0,
+      "verdict": "NO_VERIFIED_GAIN",
+      "wall_s": 0.3099,
+      "random_select": true
+    },
+    {
+      "N": 16,
+      "inner_seed": 7,
+      "generations": 8,
+      "verifier_calls": 147,
+      "sealed_evaluations": 2,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.028792,
+      "delta": 0.277361,
+      "rate_per_1k_verifications": 1.886808,
+      "promoted": 1,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.6507,
+      "random_select": true
+    },
+    {
+      "N": 16,
+      "inner_seed": 17,
+      "generations": 8,
+      "verifier_calls": 147,
+      "sealed_evaluations": 2,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 0.993477,
+      "delta": 0.242046,
+      "rate_per_1k_verifications": 1.64657,
+      "promoted": 1,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.6656,
+      "random_select": true
+    },
+    {
+      "N": 16,
+      "inner_seed": 27,
+      "generations": 8,
+      "verifier_calls": 148,
+      "sealed_evaluations": 3,
+      "baseline_public_mean": 0.751431,
+      "best_public_mean": 1.14229,
+      "delta": 0.390859,
+      "rate_per_1k_verifications": 2.640937,
+      "promoted": 2,
+      "verdict": "SELF_IMPROVEMENT_VERIFIED",
+      "wall_s": 0.638,
+      "random_select": true
+    }
+  ],
+  "summary": [
+    {
+      "N": 1,
+      "trials": 3,
+      "mean_calls": 29.7,
+      "mean_delta": 0.401056,
+      "mean_rate_per_1k": 13.376171,
+      "rate_range": [
+        9.629948,
+        16.396711
+      ],
+      "mean_promoted": 3.67
+    },
+    {
+      "N": 4,
+      "trials": 3,
+      "mean_calls": 51.7,
+      "mean_delta": 0.322018,
+      "mean_rate_per_1k": 6.233395,
+      "rate_range": [
+        5.786126,
+        6.842574
+      ],
+      "mean_promoted": 1.67
+    },
+    {
+      "N": 16,
+      "trials": 3,
+      "mean_calls": 147.3,
+      "mean_delta": 0.303422,
+      "mean_rate_per_1k": 2.058105,
+      "rate_range": [
+        1.64657,
+        2.640937
+      ],
+      "mean_promoted": 1.33
+    }
+  ]
+}

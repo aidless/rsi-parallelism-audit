@@ -1,0 +1,165 @@
+{
+  "2512.06343v3": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2512.06751v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.02368v4": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2603.26535v4": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2603.28005v2": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18164v3": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18190v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18240v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18327v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18401v5": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18547v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18701v3": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18803v3": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18835v2": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.18978v3": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.19405v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2604.19485v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.22512v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.22553v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.22599v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.22700v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2611.18627v2": {
+    "is_tier": "yes",
+    "tier": "P1",
+    "note": "边界：critic-free 是靠移除 critic 定义贡献，按 P1 字面口径仍算标题命中"
+  },
+  "2609.22947v2": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.23457v3": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.23643v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.35815v1": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2609.23808v2": {
+    "is_tier": "yes",
+    "tier": "P1"
+  },
+  "2512.07450v1": {
+    "is_tier": "yes",
+    "tier": "P2"
+  },
+  "2604.18176v1": {
+    "is_tier": "yes",
+    "tier": "P2",
+    "note": "边界：句子级是 P2（we propose ... reward model），但全篇主贡献更像数据集，按方法口径记 P2"
+  },
+  "2609.23307v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2609.22592v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2512.06660v3": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2609.35806v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2609.22869v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2609.22628v2": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2512.07266v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2609.22793v1": {
+    "is_tier": "yes",
+    "tier": "P3",
+    "note": "边界：evaluator-guided framework，中心名词是 framework，故配角级"
+  },
+  "2604.18091v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2604.19837v1": {
+    "is_tier": "yes",
+    "tier": "P3"
+  },
+  "2604.18179v3": {
+    "is_tier": "yes",
+    "tier": "P3"
+  }
+}

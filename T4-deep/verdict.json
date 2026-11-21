@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "nature_doi_num_title": true,
+    "nature_paywall_preview": true,
+    "nature_si_open_173p": true,
+    "si_coevolution_absent": true,
+    "si_codesign_present": true,
+    "si_finetune_all_baseline": true,
+    "si_retrain_absent": true,
+    "si_modelweight_update_absent": true,
+    "coral_num_title": true,
+    "coral_skills_present": true,
+    "coral_heartbeat_present": true,
+    "coral_no_eurekabench": true,
+    "coral_no_ideabench": true,
+    "coral_no_56_2": true,
+    "idea_num_title": true,
+    "idea_no_dn7": true,
+    "idea_no_dn8": true,
+    "idea_target_papers": true,
+    "idea_filtered_refs": true,
+    "idea_insight_score": true
+  },
+  "metrics": {
+    "si_chars": 289106,
+    "si_fine_tun": 4,
+    "si_co_design": 2,
+    "si_co_evolution": 0,
+    "coral_skills": 35,
+    "coral_heartbeat": 49,
+    "idea_dn7": 0,
+    "idea_dn8": 0,
+    "idea_2374": 4,
+    "idea_23460": 2
+  },
+  "all_pass": true
+}

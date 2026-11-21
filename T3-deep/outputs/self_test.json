@@ -1,0 +1,74 @@
+{
+ "mode": "NORMAL",
+ "cross_check_gate": {
+  "against": "T7-collision/outputs/collision.json rows (single arm)",
+  "checked_fields": 1200,
+  "mismatches": [],
+  "mismatch_count": 0,
+  "red_control_injected_detections": 25,
+  "note": "m=1 时本仪器 A_mono/E_mono/T_mono 必须逐 seed 等于 T7 A_single/E_single/T_single"
+ },
+ "st1_A_crossing_tfixed0_m1_rho0": {
+  "ok": true,
+  "last_swarm_budget": 16,
+  "first_mono_budget": 32,
+  "target": [
+   16,
+   32
+  ],
+  "rho": 0.0,
+  "m": 1,
+  "flip": false
+ },
+ "st1_red_flipped_winner_gate": {
+  "ok": false,
+  "last_swarm_budget": 128,
+  "first_mono_budget": 8,
+  "target": [
+   16,
+   32
+  ],
+  "rho": 0.0,
+  "m": 1,
+  "flip": true
+ },
+ "st2_eco_low_rho": {
+  "rho": 0.0,
+  "m": 4,
+  "b_mono": 32,
+  "b_swarm": 128,
+  "gain_E": 0.42878602973185886,
+  "t_fixed_heavy": 50.0,
+  "premium": 6.439024390243903,
+  "net_heavy": 0.06659176976896293
+ },
+ "st2_eco_high_rho_control": {
+  "rho": 1.0,
+  "m": 4,
+  "b_mono": 32,
+  "b_swarm": 128,
+  "gain_E": 0.04459687680486779,
+  "t_fixed_heavy": 50.0,
+  "premium": 6.439024390243903,
+  "net_heavy": 0.006926030109846892
+ },
+ "st2_verdict": {
+  "ok": true,
+  "gain_low": 0.42878602973185886,
+  "gain_high": 0.04459687680486779,
+  "net_low_heavy_tax": 0.06659176976896293
+ },
+ "st2_red_sign_flip": {
+  "ok": false,
+  "gain_low": -0.42878602973185886,
+  "gain_high": -0.04459687680486779,
+  "net_low_heavy_tax": -0.06659176976896293
+ },
+ "st3_legacy_token_table_crosscheck": {
+  "mismatches": [],
+  "checked": 5
+ },
+ "st4_range_violations": 0,
+ "gate_semantics": "good must pass; each injected fault must be detected (bad gate must fail)",
+ "verdict": "PASS"
+}

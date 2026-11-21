@@ -1,0 +1,17 @@
+2025Q4 total=15038
+  ARCH: api=274 local(sample 100)=96
+  REC: api=365 local(sample 100)=86
+  VER: api=1239 local(sample 100)=50
+2026Q1 total=17135
+  ARCH: api=393 local(sample 100)=90
+  REC: api=396 local(sample 100)=97
+  VER: api=1847 local(sample 100)=69
+2026Q2 total=22246
+  ARCH: api=599 local(sample 100)=92
+  REC: api=475 local(sample 100)=94
+  VER: api=3042 local(sample 100)=84
+2026Q3 total=19989
+  ARCH: api=646 local(sample 100)=79
+  REC: api=508 local(sample 100)=97
+  VER: api=3580 local(sample 100)=84
+evidence: {'ARCH': 357, 'REC': 374, 'VER': 287} -> outputs

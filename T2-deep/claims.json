@@ -1,0 +1,246 @@
+{
+  "checks": [
+    {
+      "id": "T-HYPER",
+      "kind": "title",
+      "source": "abs-2603.19461.html",
+      "expect_title": "Hyperagents"
+    },
+    {
+      "id": "T-META",
+      "kind": "title",
+      "source": "abs-2610.21887.html",
+      "expect_title": "MetaShare: Failure-Aware Collective Self-Improvement for Open-Ended Agents"
+    },
+    {
+      "id": "T-SWARM",
+      "kind": "title",
+      "source": "abs-2610.20431.html",
+      "expect_title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm"
+    },
+    {
+      "id": "H-FIXED1",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "First, it operates with a fixed task distribution."
+    },
+    {
+      "id": "H-FIXED2",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "One direction is to co-evolve the task distribution by generating new tasks and curricula that adapt to the agent’s capabilities"
+    },
+    {
+      "id": "H-OUTER1",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "Second, components of the open-ended exploration loop (e.g., parent selection, evaluation protocols) remain fixed."
+    },
+    {
+      "id": "H-OUTER2",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "Although hyperagents can modify their self-improvement mechanisms, they cannot alter the outer process that determines which agents are selected or how they are evaluated."
+    },
+    {
+      "id": "H-PRELIM",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "Our preliminary results suggest such extensions are feasible (Appendix E.5)."
+    },
+    {
+      "id": "H-SAFETY",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "Moreover, evaluation is performed using predefined tasks and metrics, and human oversight is maintained throughout all experiments."
+    },
+    {
+      "id": "H-LEAK",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "Test tasks are unavailable to the task and meta agents and are used only for final evaluation, which prevents direct test leakage but does not eliminate gaming of the training proxy."
+    },
+    {
+      "id": "H-FIXPARENT",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "In all other experiments (Section 5), the DGM-H uses a fixed parent selection strategy that is roughly proportional to each agent’s performance score and inversely proportional to the number of its children that successfully compiled (score-child-prop) (Appendix A.2)."
+    },
+    {
+      "id": "H-E5STAT",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "While these differences are not statistically significant (p > 0.05), they reveal a consistent qualitative trend: enabling meta-level modification of parent selection yields improvements over random selection, but does not yet surpass a carefully engineered mechanism (Figures 11 and 12)."
+    },
+    {
+      "id": "H-ITERCOST",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "We measure progress in outer-loop iterations, which count opportunities to generate a new agent rather than a fixed amount of compute, since evolved agents are free to use more or fewer FM calls within each iteration (bounded by a timeout); we report cost estimates in Appendix D.2, and comparing methods under matched compute (e.g., tokens, monetary cost, CPU/GPU usage, wall-clock time) is a natural extension."
+    },
+    {
+      "id": "H-BENCH",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "In this work, objectives are specified through fixed benchmarks and evaluation criteria. The DGM-H does not alter the underlying task definitions; instead, it optimizes performance with respect to the provided objectives."
+    },
+    {
+      "id": "H-200",
+      "kind": "quote",
+      "source": "hyperagents-v2.txt",
+      "level": "body",
+      "quote": "After 200 iterations, the best discovered agent achieves a test-set score of 0.700, outperforming ProofAutoGrader’s score of 0.670"
+    },
+    {
+      "id": "M-EXPENSIVE",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "MetaShare is the more expensive method on two of the three domains we account for."
+    },
+    {
+      "id": "M-MEDIAN",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "totals are medians over five runs to the selected checkpoint"
+    },
+    {
+      "id": "M-NOTTOKEN",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "so this is a quality-and-speed gain, not a token-efficiency claim."
+    },
+    {
+      "id": "M-MATCHED",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "same gate, temperature spread, budget, and paired runs (last row of Table 2 )—reaches 0.72"
+    },
+    {
+      "id": "M-T1-PR",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "Paper Review (100) 83M 52M"
+    },
+    {
+      "id": "M-T1-IMO",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "IMO-grading (200) 88M 213M"
+    },
+    {
+      "id": "M-NORERUN",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "we did not rerun them, so on these domains our admissibility gate"
+    },
+    {
+      "id": "M-REIMPL",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "For Polyglot and audit risk, the baseline is our reimplementation"
+    },
+    {
+      "id": "M-ITER17",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "the generation at which the selected best appears falls by 1.7"
+    },
+    {
+      "id": "M-TOKACCT",
+      "kind": "quote",
+      "source": "metashare-v1.txt",
+      "level": "body",
+      "quote": "Compute is therefore accounted for in tokens, as in Table 1 of the main paper, rather than in GPU-hours."
+    },
+    {
+      "id": "S-BACKBONE",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "SwarmRSI and rerun baselines use DeepSeek-V4-Pro ( DeepSeek, 2026 ) under matched settings for each benchmark."
+    },
+    {
+      "id": "S-TIME",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "Within each benchmark, SwarmRSI and rerun baselines share the evaluation protocol and time limit."
+    },
+    {
+      "id": "S-HW",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "SwarmRSI and rerun baselines use the same hardware within each benchmark."
+    },
+    {
+      "id": "S-HOURS",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "We set per-task time limits to 8 hours on OpenProblems ( Turcan et al., 2026 ) , 4 hours on NatureBench ( Wang et al., 2026b ) , and 12 hours on MLE-Bench Lite ( Du et al., 2026 ) ."
+    },
+    {
+      "id": "S-PUB",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "Published results keep the settings of their sources."
+    },
+    {
+      "id": "S-TOKDEF",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "Token cost sums uncached input and output tokens over all LLM calls in a search."
+    },
+    {
+      "id": "S-TOKFIG",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "For Figure 6 , we sum uncached input and output tokens from all LLM calls throughout each task’s search. We report the mean over all tasks in each benchmark and the three seeds, in millions of tokens per task."
+    },
+    {
+      "id": "S-FEWER",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "as shown in Section B.6 , it uses fewer tokens than TusoAI and Arbor."
+    },
+    {
+      "id": "S-TOKDROP",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "tokens per task fall from 12.17M to 10.94M"
+    },
+    {
+      "id": "S-SEEDS",
+      "kind": "quote",
+      "source": "swarmrsi-v3.txt",
+      "level": "body",
+      "quote": "Results from our runs in Tables 2 – 3 are averaged over three random seeds."
+    }
+  ]
+}

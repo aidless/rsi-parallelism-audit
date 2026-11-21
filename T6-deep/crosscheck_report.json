@@ -1,0 +1,911 @@
+{
+  "instrument": "analyses/tracks/rsi-after/T6-deep/crosscheck_measure.py",
+  "against": "T6-measure/outputs/README.md + lexicon_report.csv + evidence.jsonl + throughput.json + throughput-random.json",
+  "generated_at_utc": "2026-11-20T14:12:07+00:00",
+  "independent_implementation": true,
+  "imports_original_scripts": false,
+  "source_sha256_12": {
+    "README.md": "313caf1fdc8e",
+    "lexicon_report.csv": "ddff9ded0b88",
+    "evidence.jsonl": "62397db392d7",
+    "throughput.json": "ee6d3241cb26",
+    "throughput-random.json": "9f7fa41cbbb7"
+  },
+  "items": [
+    {
+      "source": "README",
+      "key": "claim.arch_growth_pct",
+      "status": "OK",
+      "claim": 77.0,
+      "computed": 77.0
+    },
+    {
+      "source": "README",
+      "key": "claim.arch_per10k_first",
+      "status": "OK",
+      "claim": 182.21,
+      "computed": 182.21
+    },
+    {
+      "source": "README",
+      "key": "claim.arch_per10k_last",
+      "status": "OK",
+      "claim": 323.18,
+      "computed": 323.18
+    },
+    {
+      "source": "README",
+      "key": "claim.audit_hits",
+      "status": "OK",
+      "claim": [
+        187,
+        287
+      ],
+      "computed": [
+        187,
+        287
+      ]
+    },
+    {
+      "source": "README",
+      "key": "claim.cross_transition_from",
+      "status": "OK",
+      "claim": "2026Q1",
+      "computed": "2026Q1"
+    },
+    {
+      "source": "README",
+      "key": "claim.local_arch",
+      "status": "OK",
+      "claim": [
+        96,
+        90,
+        92,
+        79
+      ],
+      "computed": [
+        96,
+        90,
+        92,
+        79
+      ]
+    },
+    {
+      "source": "README",
+      "key": "claim.local_rec",
+      "status": "OK",
+      "claim": [
+        86,
+        97,
+        94,
+        97
+      ],
+      "computed": [
+        86,
+        97,
+        94,
+        97
+      ]
+    },
+    {
+      "source": "README",
+      "key": "claim.local_ver",
+      "status": "OK",
+      "claim": [
+        50,
+        69,
+        84,
+        84
+      ],
+      "computed": [
+        50,
+        69,
+        84,
+        84
+      ]
+    },
+    {
+      "source": "README",
+      "key": "claim.neg_delta_n16",
+      "status": "OK",
+      "claim": 0.1899,
+      "computed": 0.1899
+    },
+    {
+      "source": "README",
+      "key": "claim.neg_delta_n4",
+      "status": "OK",
+      "claim": 0.1635,
+      "computed": 0.1635
+    },
+    {
+      "source": "README",
+      "key": "claim.neg_rate_drop_n16",
+      "status": "OK",
+      "claim": 36.0,
+      "computed": 36.0
+    },
+    {
+      "source": "README",
+      "key": "claim.neg_rate_drop_n4",
+      "status": "OK",
+      "claim": 28.0,
+      "computed": 28.0
+    },
+    {
+      "source": "README",
+      "key": "claim.open_ended_hits",
+      "status": "OK",
+      "claim": [
+        352,
+        357
+      ],
+      "computed": [
+        352,
+        357
+      ]
+    },
+    {
+      "source": "README",
+      "key": "claim.ver_growth_pct",
+      "status": "OK",
+      "claim": 117.0,
+      "computed": 117.0
+    },
+    {
+      "source": "README",
+      "key": "claim.ver_per10k_first",
+      "status": "OK",
+      "claim": 823.91,
+      "computed": 823.91
+    },
+    {
+      "source": "README",
+      "key": "claim.ver_per10k_last",
+      "status": "OK",
+      "claim": 1790.99,
+      "computed": 1790.99
+    },
+    {
+      "source": "README",
+      "key": "claim.verifier_hits",
+      "status": "OK",
+      "claim": [
+        121,
+        287
+      ],
+      "computed": [
+        121,
+        287
+      ]
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.arch_api",
+      "status": "OK",
+      "claim": 274.0,
+      "computed": 274.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.arch_per_10k",
+      "status": "OK",
+      "claim": 182.21,
+      "computed": 182.21
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.arch_rec_ratio",
+      "status": "OK",
+      "claim": 0.75,
+      "computed": 0.75
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.rec_api",
+      "status": "OK",
+      "claim": 365.0,
+      "computed": 365.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.rec_per_10k",
+      "status": "OK",
+      "claim": 242.72,
+      "computed": 242.72
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.total",
+      "status": "OK",
+      "claim": 15038.0,
+      "computed": 15038.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.ver_api",
+      "status": "OK",
+      "claim": 1239.0,
+      "computed": 1239.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2025Q4.ver_per_10k",
+      "status": "OK",
+      "claim": 823.91,
+      "computed": 823.91
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.arch_api",
+      "status": "OK",
+      "claim": 393.0,
+      "computed": 393.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.arch_per_10k",
+      "status": "OK",
+      "claim": 229.36,
+      "computed": 229.36
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.arch_rec_ratio",
+      "status": "OK",
+      "claim": 0.99,
+      "computed": 0.99
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.rec_api",
+      "status": "OK",
+      "claim": 396.0,
+      "computed": 396.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.rec_per_10k",
+      "status": "OK",
+      "claim": 231.11,
+      "computed": 231.11
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.total",
+      "status": "OK",
+      "claim": 17135.0,
+      "computed": 17135.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.ver_api",
+      "status": "OK",
+      "claim": 1847.0,
+      "computed": 1847.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q1.ver_per_10k",
+      "status": "OK",
+      "claim": 1077.91,
+      "computed": 1077.91
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.arch_api",
+      "status": "OK",
+      "claim": 599.0,
+      "computed": 599.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.arch_per_10k",
+      "status": "OK",
+      "claim": 269.26,
+      "computed": 269.26
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.arch_rec_ratio",
+      "status": "OK",
+      "claim": 1.26,
+      "computed": 1.26
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.rec_api",
+      "status": "OK",
+      "claim": 475.0,
+      "computed": 475.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.rec_per_10k",
+      "status": "OK",
+      "claim": 213.52,
+      "computed": 213.52
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.total",
+      "status": "OK",
+      "claim": 22246.0,
+      "computed": 22246.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.ver_api",
+      "status": "OK",
+      "claim": 3042.0,
+      "computed": 3042.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q2.ver_per_10k",
+      "status": "OK",
+      "claim": 1367.44,
+      "computed": 1367.44
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.arch_api",
+      "status": "OK",
+      "claim": 646.0,
+      "computed": 646.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.arch_per_10k",
+      "status": "OK",
+      "claim": 323.18,
+      "computed": 323.18
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.arch_rec_ratio",
+      "status": "OK",
+      "claim": 1.27,
+      "computed": 1.27
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.rec_api",
+      "status": "OK",
+      "claim": 508.0,
+      "computed": 508.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.rec_per_10k",
+      "status": "OK",
+      "claim": 254.14,
+      "computed": 254.14
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.total",
+      "status": "OK",
+      "claim": 19989.0,
+      "computed": 19989.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.ver_api",
+      "status": "OK",
+      "claim": 3580.0,
+      "computed": 3580.0
+    },
+    {
+      "source": "README",
+      "key": "lex.2026Q3.ver_per_10k",
+      "status": "OK",
+      "claim": 1790.99,
+      "computed": 1790.99
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N1.mean_calls",
+      "status": "OK",
+      "claim": 29.7,
+      "computed": 29.7
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N1.mean_delta",
+      "status": "OK",
+      "claim": 0.4011,
+      "computed": 0.401056
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N1.mean_promoted",
+      "status": "OK",
+      "claim": 3.67,
+      "computed": 3.67
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N1.mean_rate",
+      "status": "OK",
+      "claim": 13.376,
+      "computed": 13.376171
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N16.mean_calls",
+      "status": "OK",
+      "claim": 152.7,
+      "computed": 152.7
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N16.mean_delta",
+      "status": "OK",
+      "claim": 0.4933,
+      "computed": 0.493278
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N16.mean_promoted",
+      "status": "OK",
+      "claim": 6.67,
+      "computed": 6.67
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N16.mean_rate",
+      "status": "OK",
+      "claim": 3.231,
+      "computed": 3.231113
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N4.mean_calls",
+      "status": "OK",
+      "claim": 56.3,
+      "computed": 56.3
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N4.mean_delta",
+      "status": "OK",
+      "claim": 0.4855,
+      "computed": 0.485526
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N4.mean_promoted",
+      "status": "OK",
+      "claim": 6.33,
+      "computed": 6.33
+    },
+    {
+      "source": "README",
+      "key": "tp.main.N4.mean_rate",
+      "status": "OK",
+      "claim": 8.619,
+      "computed": 8.618745
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N1.mean_calls",
+      "status": "OK",
+      "claim": 29.7,
+      "computed": 29.7
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N1.mean_delta",
+      "status": "OK",
+      "claim": 0.4011,
+      "computed": 0.401056
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N1.mean_promoted",
+      "status": "OK",
+      "claim": 3.67,
+      "computed": 3.67
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N1.mean_rate",
+      "status": "OK",
+      "claim": 13.376,
+      "computed": 13.376171
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N16.mean_calls",
+      "status": "OK",
+      "claim": 147.3,
+      "computed": 147.3
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N16.mean_delta",
+      "status": "OK",
+      "claim": 0.3034,
+      "computed": 0.303422
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N16.mean_promoted",
+      "status": "OK",
+      "claim": 1.33,
+      "computed": 1.33
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N16.mean_rate",
+      "status": "OK",
+      "claim": 2.058,
+      "computed": 2.058105
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N4.mean_calls",
+      "status": "OK",
+      "claim": 51.7,
+      "computed": 51.7
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N4.mean_delta",
+      "status": "OK",
+      "claim": 0.322,
+      "computed": 0.322018
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N4.mean_promoted",
+      "status": "OK",
+      "claim": 1.67,
+      "computed": 1.67
+    },
+    {
+      "source": "README",
+      "key": "tp.random.N4.mean_rate",
+      "status": "OK",
+      "claim": 6.233,
+      "computed": 6.233395
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2025Q4.arch_local_sample",
+      "status": "OK",
+      "claim": 96.0,
+      "computed": 96.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2025Q4.rec_local_sample",
+      "status": "OK",
+      "claim": 86.0,
+      "computed": 86.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2025Q4.ver_local_sample",
+      "status": "OK",
+      "claim": 50.0,
+      "computed": 50.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q1.arch_local_sample",
+      "status": "OK",
+      "claim": 90.0,
+      "computed": 90.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q1.rec_local_sample",
+      "status": "OK",
+      "claim": 97.0,
+      "computed": 97.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q1.ver_local_sample",
+      "status": "OK",
+      "claim": 69.0,
+      "computed": 69.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q2.arch_local_sample",
+      "status": "OK",
+      "claim": 92.0,
+      "computed": 92.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q2.rec_local_sample",
+      "status": "OK",
+      "claim": 94.0,
+      "computed": 94.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q2.ver_local_sample",
+      "status": "OK",
+      "claim": 84.0,
+      "computed": 84.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q3.arch_local_sample",
+      "status": "OK",
+      "claim": 79.0,
+      "computed": 79.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q3.rec_local_sample",
+      "status": "OK",
+      "claim": 97.0,
+      "computed": 97.0
+    },
+    {
+      "source": "CSV-local",
+      "key": "csv.2026Q3.ver_local_sample",
+      "status": "OK",
+      "claim": 84.0,
+      "computed": 84.0
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N1.mean_calls",
+      "status": "OK",
+      "claim": 29.7,
+      "computed": 29.7
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N1.mean_delta",
+      "status": "OK",
+      "claim": 0.401056,
+      "computed": 0.401056
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N1.mean_promoted",
+      "status": "OK",
+      "claim": 3.67,
+      "computed": 3.67
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N1.mean_rate",
+      "status": "OK",
+      "claim": 13.376171,
+      "computed": 13.376171
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N16.mean_calls",
+      "status": "OK",
+      "claim": 147.3,
+      "computed": 147.3
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N16.mean_delta",
+      "status": "OK",
+      "claim": 0.303422,
+      "computed": 0.303422
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N16.mean_promoted",
+      "status": "OK",
+      "claim": 1.33,
+      "computed": 1.33
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N16.mean_rate",
+      "status": "OK",
+      "claim": 2.058105,
+      "computed": 2.058105
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N4.mean_calls",
+      "status": "OK",
+      "claim": 51.7,
+      "computed": 51.7
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N4.mean_delta",
+      "status": "OK",
+      "claim": 0.322018,
+      "computed": 0.322018
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N4.mean_promoted",
+      "status": "OK",
+      "claim": 1.67,
+      "computed": 1.67
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput-random.N4.mean_rate",
+      "status": "OK",
+      "claim": 6.233395,
+      "computed": 6.233395
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N1.mean_calls",
+      "status": "OK",
+      "claim": 29.7,
+      "computed": 29.7
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N1.mean_delta",
+      "status": "OK",
+      "claim": 0.401056,
+      "computed": 0.401056
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N1.mean_promoted",
+      "status": "OK",
+      "claim": 3.67,
+      "computed": 3.67
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N1.mean_rate",
+      "status": "OK",
+      "claim": 13.376171,
+      "computed": 13.376171
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N16.mean_calls",
+      "status": "OK",
+      "claim": 152.7,
+      "computed": 152.7
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N16.mean_delta",
+      "status": "OK",
+      "claim": 0.493278,
+      "computed": 0.493278
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N16.mean_promoted",
+      "status": "OK",
+      "claim": 6.67,
+      "computed": 6.67
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N16.mean_rate",
+      "status": "OK",
+      "claim": 3.231113,
+      "computed": 3.231113
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N4.mean_calls",
+      "status": "OK",
+      "claim": 56.3,
+      "computed": 56.3
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N4.mean_delta",
+      "status": "OK",
+      "claim": 0.485526,
+      "computed": 0.485526
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N4.mean_promoted",
+      "status": "OK",
+      "claim": 6.33,
+      "computed": 6.33
+    },
+    {
+      "source": "JSON-summary",
+      "key": "jsonsummary.throughput.N4.mean_rate",
+      "status": "OK",
+      "claim": 8.618745,
+      "computed": 8.618745
+    }
+  ],
+  "mismatches": [],
+  "unverified": [
+    {
+      "key": "claim.ver_adjusted_no_generic_terms",
+      "status": "未核",
+      "claimed_text": "剔除 `audit`/`evaluator` 后重算 VER API 命中为 1012/1422/2188/2515，即每万篇 672.96/829.77/983.46/1258.19（+87%）",
+      "reason": "T6-measure 落盘 lexicon_report.csv / evidence.jsonl / throughput*.json 未记录剔除 audit/evaluator 后的 API 计数；analyses/tracks/rsi-after 内 grep 未找到生成载体。按工作纪律停该方向，不计入 mismatches。"
+    }
+  ],
+  "audit": {
+    "cross": {
+      "first_above_1": "2026Q2",
+      "last_below_1": "2026Q1",
+      "transition_from": "2026Q1",
+      "ratios_raw": {
+        "2025Q4": 0.750685,
+        "2026Q1": 0.992424,
+        "2026Q2": 1.261053,
+        "2026Q3": 1.271654
+      }
+    },
+    "evidence": {
+      "evidence_total": 1018,
+      "by_category": {
+        "ARCH": 357,
+        "REC": 374,
+        "VER": 287
+      },
+      "arch_hits": {
+        "open-ended": 352,
+        "lineage": 3,
+        "novelty-search": 3,
+        "archive-of-agents": 1,
+        "maintains-archive": 1,
+        "population-based": 3
+      },
+      "ver_hits": {
+        "verifier": 121,
+        "audit": 187,
+        "evaluator": 28,
+        "judge": 27,
+        "acceptance-gate": 5,
+        "sealed-eval": 1
+      }
+    },
+    "quarters": [
+      "2025Q4",
+      "2026Q1",
+      "2026Q2",
+      "2026Q3"
+    ],
+    "protocol": {
+      "throughput": {
+        "Ns": [
+          1,
+          4,
+          16
+        ],
+        "seeds": [
+          7,
+          17,
+          27
+        ],
+        "generations": 8,
+        "cost_s": 0.0,
+        "random_select": false
+      },
+      "throughput-random": {
+        "Ns": [
+          1,
+          4,
+          16
+        ],
+        "seeds": [
+          7,
+          17,
+          27
+        ],
+        "generations": 8,
+        "cost_s": 0.0,
+        "random_select": true
+      }
+    }
+  }
+}

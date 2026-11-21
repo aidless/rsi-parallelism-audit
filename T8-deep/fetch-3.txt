@@ -1,0 +1,709 @@
+[skip to main content](https://dl.acm.org/doi/10.1145/3711896.3737419#skip-to-main-content)
+
+## ACM is now Open Access
+
+×
+
+As part of the Digital Library's transition to [Open Access](https://dl.acm.org/action/clickThrough?id=108180&url=%2Fopenaccess&loc=%2Fdoi%2F10.1145%2F3711896.3737419&pubId=64594383&placeholderId=101025&productId=108179 "Follow link to the ACM DL Open Access information page"), new features for researchers are available in the _Premium Edition_. [Click here to learn more](https://dl.acm.org/action/clickThrough?id=108180&url=%2Fpremium&loc=%2Fdoi%2F10.1145%2F3711896.3737419&pubId=64594383&placeholderId=101025&productId=108179 "More information about Premium Edition").
+
+**You are currently in the Basic Edition. Features requiring a subscription appear in grey.**
+
+[Sign In](https://dl.acm.org/action/clickThrough?id=108180&url=%2Faction%2FshowLogin%3FredirectUri%3Dhttps%253A%252F%252Fdl.acm.org%252Fdoi%252F10.1145%252F3711896.3737419&loc=%2Fdoi%2F10.1145%2F3711896.3737419&pubId=64594383&placeholderId=101025&productId=108179) [Upgrade](https://dl.acm.org/action/clickThrough?id=108180&url=%2Fabout%2Fupgrade&loc=%2Fdoi%2F10.1145%2F3711896.3737419&pubId=64594383&placeholderId=101025&productId=108179 "Learn about upgrading to Premium Edition")
+
+Several features on this page require Premium Access.
+
+[Learn more](https://dl.acm.org/about/upgrade) [Sign in](https://dl.acm.org/action/showLogin?redirectUri=%2Fdoi%2F10.1145%2F3711896.3737419)
+
+Contents
+
+## Abstract
+
+### Abstract
+
+Large Language Models (LLMs) have revolutionized interactions between human and artificial intelligence (AI) systems, demonstrating state-of-the-art performance across various domains, including scientific discovery and hypothesis generation. However, the absence of a comprehensive and systematic evaluation framework for LLM-driven research idea generation hinders a rigorous understanding of their strengths and limitations. To address this gap, we propose IdeaBench, a benchmark system that provides a structured dataset and evaluation framework for standardizing the assessment of research idea generation by LLMs. Our dataset comprises titles and abstracts from 2,374 influential papers across eight research domains, along with their 29,408 referenced works, creating a context-rich environment that mirrors human researchers' ideation processes. By profiling LLMs as domain-specific researchers and grounding them in similar contextual constraints, we directly leverage the models' knowledge learned from the pre-training stage to generate new research ideas. To systematically evaluate LLMs' research ideation capability and approximate human assessment, we propose a reference-based metric that aligns with human judgment to quantify idea quality with the assistance of LLMs. Through this evaluation, we find that while LLMs excel at generating novel ideas, they may struggle with generating feasible ideas. IdeaBench serves as a critical resource for benchmarking and comparing LLMs, ultimately advancing research on AI's role in automating scientific discovery.
+
+### AI Summary
+
+### AI-Generated Summary (Experimental)
+
+This summary was generated using automated tools and was not authored or reviewed by the article's author(s). It is provided to support discovery, help readers assess relevance, and assist readers from adjacent research areas in understanding the work. It is intended to complement the author-supplied abstract, which remains the primary summary of the paper. The full article remains the authoritative version of record. [Click here to learn more](https://dl.acm.org/generative-ai/summarizations "Learn more about ACM AI summaries").
+
+Click here to comment on the accuracy, clarity, and usefulness of this summary. Doing so will help inform refinements and future regenerated versions.
+
+To view this AI-generated plain language summary, you must have Premium access.
+
+## Formats available
+
+You can view the full content in the following formats:
+
+[PDF/eReader](https://dl.acm.org/doi/epdf/10.1145/3711896.3737419 "View online with eReader")
+
+## Supplemental Material
+
+MP4 File - IdeaBench: Benchmarking Large Language Models for Research Idea Generation
+
+Video for Ideabench
+
+Stream
+
+Play Video
+
+Play
+
+Currently unmuted. Volume set to 100 percent. Click to mute.
+
+SettingsEnable Picture in PictureEnable Fullscreen
+
+- [Download \| MP4 (2.14 MB)](https://dl.acm.org/doi/suppl/10.1145/3711896.3737419/suppl_file/video1728465474.mp4)
+
+## References
+
+\[1\]
+
+Microsoft Research AI4Science and Microsoft Azure Quantum. 2023. The impact of large language models on scientific discovery: a preliminary study using gpt-4. arXiv preprint arXiv:2311.07361(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Microsoft+Research+AI4Science+and+Microsoft+Azure+Quantum.+2023.+The+impact+of+large+language+models+on+scientific+discovery%3A+a+preliminary+study+using+gpt-4.+arXiv+preprint+arXiv%3A2311.07361%282023%29.)
+
+\[2\]
+
+Jinheon Baek, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang. 2024. Researchagent: Iterative research idea generation over scientific literature with large language models. arXiv preprint arXiv:2404.07738(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Jinheon+Baek%2C+Sujay+Kumar+Jauhar%2C+Silviu+Cucerzan%2C+and+Sung+Ju+Hwang.+2024.+Researchagent%3A+Iterative+research+idea+generation+over+scientific+literature+with+large+language+models.+arXiv+preprint+arXiv%3A2404.07738%282024%29.)
+
+\[3\]
+
+Yushi Bai, Jiahao Ying, Yixin Cao, Xin Lv, Yuze He, Xiaozhi Wang, Jifan Yu, Kaisheng Zeng, Yijia Xiao, Haozhe Lyu, et al., 2024. Benchmarking foundation models with language-model-as-an-examiner. Advances in Neural Information Processing Systems, Vol. 36 (2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Yushi+Bai%2C+Jiahao+Ying%2C+Yixin+Cao%2C+Xin+Lv%2C+Yuze+He%2C+Xiaozhi+Wang%2C+Jifan+Yu%2C+Kaisheng+Zeng%2C+Yijia+Xiao%2C+Haozhe+Lyu%2C+et+al.%2C+2024.+Benchmarking+foundation+models+with+language-model-as-an-examiner.+Advances+in+Neural+Information+Processing+Systems%2C+Vol.+36+%282024%29.)
+
+\[4\]
+
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al., 2020. Language models are few-shot learners. Advances in neural information processing systems, Vol. 33 (2020), 1877-1901.
+
+[Google Scholar](https://scholar.google.com/scholar?q=Tom+Brown%2C+Benjamin+Mann%2C+Nick+Ryder%2C+Melanie+Subbiah%2C+Jared+D+Kaplan%2C+Prafulla+Dhariwal%2C+Arvind+Neelakantan%2C+Pranav+Shyam%2C+Girish+Sastry%2C+Amanda+Askell%2C+et+al.%2C+2020.+Language+models+are+few-shot+learners.+Advances+in+neural+information+processing+systems%2C+Vol.+33+%282020%29%2C+1877-1901.)
+
+\[5\]
+
+Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, et al., 2023. Sparks of artificial general intelligence: Early experiments with gpt-4. arXiv preprint arXiv:2303.12712(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=S%C3%A9bastien+Bubeck%2C+Varun+Chandrasekaran%2C+Ronen+Eldan%2C+Johannes+Gehrke%2C+Eric+Horvitz%2C+Ece+Kamar%2C+Peter+Lee%2C+Yin+Tat+Lee%2C+Yuanzhi+Li%2C+Scott+Lundberg%2C+et+al.%2C+2023.+Sparks+of+artificial+general+intelligence%3A+Early+experiments+with+gpt-4.+arXiv+preprint+arXiv%3A2303.12712%282023%29.)
+
+\[6\]
+
+Cheng-Han Chiang and Hung-yi Lee. 2023. Can large language models be an alternative to human evaluations? arXiv preprint arXiv:2305.01937(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Cheng-Han+Chiang+and+Hung-yi+Lee.+2023.+Can+large+language+models+be+an+alternative+to+human+evaluations%3F+arXiv+preprint+arXiv%3A2305.01937%282023%29.)
+
+\[7\]
+
+Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei Liu. 2024. GPTScore: Evaluate as You Desire. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), Kevin Duh, Helena Gomez, and Steven Bethard(Eds.). Association for Computational Linguistics, Mexico City, Mexico, 6556-6576. https://doi.org/10.18653/v1/2024.naacl-long.365
+
+[Crossref](https://doi.org/10.18653/v1/2024.naacl-long.365)
+
+[Google Scholar](https://scholar.google.com/scholar_lookup?doi=10.18653%2Fv1%2F2024.naacl-long.365)
+
+\[8\]
+
+Google Scholar. 2024. Google Scholar Top Publications. https://scholar.google.com/citations?view\_op=top\_venues.
+
+[Google Scholar](https://scholar.google.com/scholar?q=Google+Scholar.+2024.+Google+Scholar+Top+Publications.+https%3A%2F%2Fscholar.google.com%2Fcitations%3Fview_op%3Dtop_venues.)
+
+\[9\]
+
+Sikun Guo, Amir Hassan Shariatmadari, Guangzhi Xiong, and Aidong Zhang. 2024. Embracing Foundation Models for Advancing Scientific Discovery. In 2024 IEEE International Conference on Big Data (BigData). IEEE, 1746-1755.
+
+[Google Scholar](https://scholar.google.com/scholar?q=Sikun+Guo%2C+Amir+Hassan+Shariatmadari%2C+Guangzhi+Xiong%2C+and+Aidong+Zhang.+2024.+Embracing+Foundation+Models+for+Advancing+Scientific+Discovery.+In+2024+IEEE+International+Conference+on+Big+Data+%28BigData%29.+IEEE%2C+1746-1755.)
+
+\[10\]
+
+Sikun Guo, Guangzhi Xiong, and Aidong Zhang. 2025. Optimizing External and Internal Knowledge of Foundation Models for Scientific Discovery. In Proceedings of the 2025 SIAM International Conference on Data Mining (SDM). SIAM, 431-434.
+
+[Crossref](https://doi.org/10.1137/1.9781611978520.45)
+
+[Google Scholar](https://scholar.google.com/scholar_lookup?doi=10.1137%2F1.9781611978520.45)
+
+\[11\]
+
+Xiang Hu, Hongyu Fu, Jinge Wang, Yifeng Wang, Zhikun Li, Renjun Xu, Yu Lu, Yaochu Jin, Lili Pan, and Zhenzhong Lan. 2024. Nova: An iterative planning and search approach to enhance novelty and diversity of llm generated ideas. arXiv preprint arXiv:2410.14255(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Xiang+Hu%2C+Hongyu+Fu%2C+Jinge+Wang%2C+Yifeng+Wang%2C+Zhikun+Li%2C+Renjun+Xu%2C+Yu+Lu%2C+Yaochu+Jin%2C+Lili+Pan%2C+and+Zhenzhong+Lan.+2024.+Nova%3A+An+iterative+planning+and+search+approach+to+enhance+novelty+and+diversity+of+llm+generated+ideas.+arXiv+preprint+arXiv%3A2410.14255%282024%29.)
+
+\[12\]
+
+Rodney Kinney, Chloe Anastasiades, Russell Authur, Iz Beltagy, Jonathan Bragg, Alexandra Buraczynski, Isabel Cachola, Stefan Candra, Yoganand Chandrasekhar, Arman Cohan, et al., 2023. The semantic scholar open data platform. arXiv preprint arXiv:2301.10140(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Rodney+Kinney%2C+Chloe+Anastasiades%2C+Russell+Authur%2C+Iz+Beltagy%2C+Jonathan+Bragg%2C+Alexandra+Buraczynski%2C+Isabel+Cachola%2C+Stefan+Candra%2C+Yoganand+Chandrasekhar%2C+Arman+Cohan%2C+et+al.%2C+2023.+The+semantic+scholar+open+data+platform.+arXiv+preprint+arXiv%3A2301.10140%282023%29.)
+
+\[13\]
+
+Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. 2022. Large language models are zero-shot reasoners. Advances in neural information processing systems, Vol. 35 (2022), 22199-22213.
+
+[Google Scholar](https://scholar.google.com/scholar?q=Takeshi+Kojima%2C+Shixiang+Shane+Gu%2C+Machel+Reid%2C+Yutaka+Matsuo%2C+and+Yusuke+Iwasawa.+2022.+Large+language+models+are+zero-shot+reasoners.+Advances+in+neural+information+processing+systems%2C+Vol.+35+%282022%29%2C+22199-22213.)
+
+\[14\]
+
+Ruochen Li, Liqiang Jing, Chi Han, Jiawei Zhou, and Xinya Du. 2024. Learning to Generate Research Idea with Dynamic Control. arXiv preprint arXiv:2412.14626(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Ruochen+Li%2C+Liqiang+Jing%2C+Chi+Han%2C+Jiawei+Zhou%2C+and+Xinya+Du.+2024.+Learning+to+Generate+Research+Idea+with+Dynamic+Control.+arXiv+preprint+arXiv%3A2412.14626%282024%29.)
+
+\[15\]
+
+Chin-Yew Lin. 2004. ROUGE: A Package for Automatic Evaluation of Summaries. In Annual Meeting of the Association for Computational Linguistics. https://api.semanticscholar.org/CorpusID:964287
+
+[Google Scholar](https://scholar.google.com/scholar?q=Chin-Yew+Lin.+2004.+ROUGE%3A+A+Package+for+Automatic+Evaluation+of+Summaries.+In+Annual+Meeting+of+the+Association+for+Computational+Linguistics.+https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A964287)
+
+\[16\]
+
+Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. 2023. G-eval: Nlg evaluation using gpt-4 with better human alignment. arXiv preprint arXiv:2303.16634(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Yang+Liu%2C+Dan+Iter%2C+Yichong+Xu%2C+Shuohang+Wang%2C+Ruochen+Xu%2C+and+Chenguang+Zhu.+2023.+G-eval%3A+Nlg+evaluation+using+gpt-4+with+better+human+alignment.+arXiv+preprint+arXiv%3A2303.16634%282023%29.)
+
+\[17\]
+
+OpenAI. 2023. GPT-4 Technical Report. ArXiv, Vol. abs/2303.08774 (2023). https://arxiv.org/abs/2303.08774
+
+[Google Scholar](https://scholar.google.com/scholar?q=OpenAI.+2023.+GPT-4+Technical+Report.+ArXiv%2C+Vol.+abs%2F2303.08774+%282023%29.+https%3A%2F%2Farxiv.org%2Fabs%2F2303.08774)
+
+\[18\]
+
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002. Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting of the Association for Computational Linguistics. 311-318.
+
+[Google Scholar](https://scholar.google.com/scholar?q=Kishore+Papineni%2C+Salim+Roukos%2C+Todd+Ward%2C+and+Wei-Jing+Zhu.+2002.+Bleu%3A+a+method+for+automatic+evaluation+of+machine+translation.+In+Proceedings+of+the+40th+annual+meeting+of+the+Association+for+Computational+Linguistics.+311-318.)
+
+\[19\]
+
+Linlu Qiu, Liwei Jiang, Ximing Lu, Melanie Sclar, Valentina Pyatkin, Chandra Bhagavatula, Bailin Wang, Yoon Kim, Yejin Choi, Nouha Dziri, et al., 2023. Phenomenal yet puzzling: Testing inductive reasoning capabilities of language models with hypothesis refinement. arXiv preprint arXiv:2310.08559(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Linlu+Qiu%2C+Liwei+Jiang%2C+Ximing+Lu%2C+Melanie+Sclar%2C+Valentina+Pyatkin%2C+Chandra+Bhagavatula%2C+Bailin+Wang%2C+Yoon+Kim%2C+Yejin+Choi%2C+Nouha+Dziri%2C+et+al.%2C+2023.+Phenomenal+yet+puzzling%3A+Testing+inductive+reasoning+capabilities+of+language+models+with+hypothesis+refinement.+arXiv+preprint+arXiv%3A2310.08559%282023%29.)
+
+\[20\]
+
+Machel Reid, Nikolay Savinov, Denis Teplyashin, Dmitry Lepikhin, Timothy Lillicrap, Jean-baptiste Alayrac, Radu Soricut, Angeliki Lazaridou, Orhan Firat, Julian Schrittwieser, et al., 2024. Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context. arXiv preprint arXiv:2403.05530(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Machel+Reid%2C+Nikolay+Savinov%2C+Denis+Teplyashin%2C+Dmitry+Lepikhin%2C+Timothy+Lillicrap%2C+Jean-baptiste+Alayrac%2C+Radu+Soricut%2C+Angeliki+Lazaridou%2C+Orhan+Firat%2C+Julian+Schrittwieser%2C+et+al.%2C+2024.+Gemini+1.5%3A+Unlocking+multimodal+understanding+across+millions+of+tokens+of+context.+arXiv+preprint+arXiv%3A2403.05530%282024%29.)
+
+\[21\]
+
+Samuel Schmidgall, Yusheng Su, Ze Wang, Ximeng Sun, Jialian Wu, Xiaodong Yu, Jiang Liu, Zicheng Liu, and Emad Barsoum. 2025. Agent laboratory: Using llm agents as research assistants. arXiv preprint arXiv:2501.04227(2025).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Samuel+Schmidgall%2C+Yusheng+Su%2C+Ze+Wang%2C+Ximeng+Sun%2C+Jialian+Wu%2C+Xiaodong+Yu%2C+Jiang+Liu%2C+Zicheng+Liu%2C+and+Emad+Barsoum.+2025.+Agent+laboratory%3A+Using+llm+agents+as+research+assistants.+arXiv+preprint+arXiv%3A2501.04227%282025%29.)
+
+\[22\]
+
+Chenglei Si, Diyi Yang, and Tatsunori Hashimoto. 2024. Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100 NLP Researchers. arXiv preprint arXiv:2409.04109(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Chenglei+Si%2C+Diyi+Yang%2C+and+Tatsunori+Hashimoto.+2024.+Can+LLMs+Generate+Novel+Research+Ideas%3F+A+Large-Scale+Human+Study+with+100+NLP+Researchers.+arXiv+preprint+arXiv%3A2409.04109%282024%29.)
+
+\[23\]
+
+Brian Thompson and Matt Post. 2020. Automatic machine translation evaluation in many languages via zero-shot paraphrasing. arXiv preprint arXiv:2004.14564(2020).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Brian+Thompson+and+Matt+Post.+2020.+Automatic+machine+translation+evaluation+in+many+languages+via+zero-shot+paraphrasing.+arXiv+preprint+arXiv%3A2004.14564%282020%29.)
+
+\[24\]
+
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al., 2023. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Hugo+Touvron%2C+Louis+Martin%2C+Kevin+Stone%2C+Peter+Albert%2C+Amjad+Almahairi%2C+Yasmine+Babaei%2C+Nikolay+Bashlykov%2C+Soumya+Batra%2C+Prajjwal+Bhargava%2C+Shruti+Bhosale%2C+et+al.%2C+2023.+Llama+2%3A+Open+foundation+and+fine-tuned+chat+models.+arXiv+preprint+arXiv%3A2307.09288%282023%29.)
+
+\[25\]
+
+Tu Vu, Kalpesh Krishna, Salaheddin Alzubi, Chris Tar, Manaal Faruqui, and Yun-Hsuan Sung. 2024. Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation. arXiv preprint arXiv:2407.10817(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Tu+Vu%2C+Kalpesh+Krishna%2C+Salaheddin+Alzubi%2C+Chris+Tar%2C+Manaal+Faruqui%2C+and+Yun-Hsuan+Sung.+2024.+Foundational+Autoraters%3A+Taming+Large+Language+Models+for+Better+Automatic+Evaluation.+arXiv+preprint+arXiv%3A2407.10817%282024%29.)
+
+\[26\]
+
+Qingyun Wang, Doug Downey, Heng Ji, and Tom Hope. 2023a. Learning to generate novel scientific directions with contextualized literature-based discovery. arXiv preprint arXiv:2305.14259(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Qingyun+Wang%2C+Doug+Downey%2C+Heng+Ji%2C+and+Tom+Hope.+2023a.+Learning+to+generate+novel+scientific+directions+with+contextualized+literature-based+discovery.+arXiv+preprint+arXiv%3A2305.14259%282023%29.)
+
+\[27\]
+
+Qingyun Wang, Doug Downey, Heng Ji, and Tom Hope. 2023b. Scimon: Scientific inspiration machines optimized for novelty. arXiv preprint arXiv:2305.14259(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Qingyun+Wang%2C+Doug+Downey%2C+Heng+Ji%2C+and+Tom+Hope.+2023b.+Scimon%3A+Scientific+inspiration+machines+optimized+for+novelty.+arXiv+preprint+arXiv%3A2305.14259%282023%29.)
+
+\[28\]
+
+Guangzhi Xiong, Eric Xie, Corey Williams, Myles Kim, Amir Hassan Shariatmadari, Sikun Guo, Stefan Bekiranov, and Aidong Zhang. 2025. Toward Reliable Biomedical Hypothesis Generation: Evaluating Truthfulness and Hallucination in Large Language Models. arXiv preprint arXiv:2505.14599(2025).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Guangzhi+Xiong%2C+Eric+Xie%2C+Corey+Williams%2C+Myles+Kim%2C+Amir+Hassan+Shariatmadari%2C+Sikun+Guo%2C+Stefan+Bekiranov%2C+and+Aidong+Zhang.+2025.+Toward+Reliable+Biomedical+Hypothesis+Generation%3A+Evaluating+Truthfulness+and+Hallucination+in+Large+Language+Models.+arXiv+preprint+arXiv%3A2505.14599%282025%29.)
+
+\[29\]
+
+Zonglin Yang, Xinya Du, Junxian Li, Jie Zheng, Soujanya Poria, and Erik Cambria. 2023. Large language models for automated open-domain scientific hypotheses discovery. arXiv preprint arXiv:2309.02726(2023).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Zonglin+Yang%2C+Xinya+Du%2C+Junxian+Li%2C+Jie+Zheng%2C+Soujanya+Poria%2C+and+Erik+Cambria.+2023.+Large+language+models+for+automated+open-domain+scientific+hypotheses+discovery.+arXiv+preprint+arXiv%3A2309.02726%282023%29.)
+
+\[30\]
+
+Weizhe Yuan, Graham Neubig, and Pengfei Liu. 2021. Bartscore: Evaluating generated text as text generation. Advances in Neural Information Processing Systems, Vol. 34 (2021), 27263-27277.
+
+[Google Scholar](https://scholar.google.com/scholar?q=Weizhe+Yuan%2C+Graham+Neubig%2C+and+Pengfei+Liu.+2021.+Bartscore%3A+Evaluating+generated+text+as+text+generation.+Advances+in+Neural+Information+Processing+Systems%2C+Vol.+34+%282021%29%2C+27263-27277.)
+
+\[31\]
+
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Weinberger, and Yoav Artzi. 2019. Bertscore: Evaluating text generation with bert. arXiv preprint arXiv:1904.09675(2019).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Tianyi+Zhang%2C+Varsha+Kishore%2C+Felix+Wu%2C+Kilian+Q+Weinberger%2C+and+Yoav+Artzi.+2019.+Bertscore%3A+Evaluating+text+generation+with+bert.+arXiv+preprint+arXiv%3A1904.09675%282019%29.)
+
+\[32\]
+
+Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M Meyer, and Steffen Eger. 2019. MoverScore: Text generation evaluating with contextualized embeddings and earth mover distance. arXiv preprint arXiv:1909.02622(2019).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Wei+Zhao%2C+Maxime+Peyrard%2C+Fei+Liu%2C+Yang+Gao%2C+Christian+M+Meyer%2C+and+Steffen+Eger.+2019.+MoverScore%3A+Text+generation+evaluating+with+contextualized+embeddings+and+earth+mover+distance.+arXiv+preprint+arXiv%3A1909.02622%282019%29.)
+
+\[33\]
+
+Yangqiaoyu Zhou, Haokun Liu, Tejes Srivastava, Hongyuan Mei, and Chenhao Tan. 2024. Hypothesis Generation with Large Language Models. arXiv preprint arXiv:2404.04326(2024).
+
+[Google Scholar](https://scholar.google.com/scholar?q=Yangqiaoyu+Zhou%2C+Haokun+Liu%2C+Tejes+Srivastava%2C+Hongyuan+Mei%2C+and+Chenhao+Tan.+2024.+Hypothesis+Generation+with+Large+Language+Models.+arXiv+preprint+arXiv%3A2404.04326%282024%29.)
+
+## Cited By
+
+[View all](https://dl.acm.org/action/ajaxShowCitedBy?doi=10.1145/3711896.3737419 "View all cited by in new tab")
+
+- Huang YContractor NPeng TWang DShen CLi MLiu YZhang HSuh S(2026)Rethinking Social Computing Research in the Age of AI: Agency, Collaboration, and GovernanceProceedings of the 2026 Companion of the Computer-Supported Cooperative Work and Social Computing10.1145/3785651.3831580(572-575)Online publication date: 10-Oct-2026
+[https://dl.acm.org/doi/10.1145/3785651.3831580](https://dl.acm.org/doi/10.1145/3785651.3831580)
+
+- Ahmadpour J(2026)Characterizing LLM scientific concept generation: A multi-dimensional measurement studyPLOS One10.1371/journal.pone.0357892**21**:9(e0357892)Online publication date: 15-Sep-2026
+[https://doi.org/10.1371/journal.pone.0357892](https://doi.org/10.1371/journal.pone.0357892)
+
+- Guo SWang DFan XHuang AZhang AKim WLee JShim KCaverlee JGleich DZhang XHe QFarooq FRosales RRanu SWang HLiu YYang CAkoglu LChawla NPapalexakis V(2026)Curiosity-Driven Questioning for Engine-Agnostic LLM Research IdeationProceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.210.1145/3770855.3819030(11016-11027)Online publication date: 9-Aug-2026
+[https://dl.acm.org/doi/10.1145/3770855.3819030](https://dl.acm.org/doi/10.1145/3770855.3819030)
+
+- Show More Cited By
+
+## Index Terms
+
+Index Terms (Premium feature)
+
+1. IdeaBench: Benchmarking Large Language Models for Research Idea Generation
+
+1. [Applied computing](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+
+
+      1. [Law, social and behavioral sciences](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+
+
+         1. [Sociology](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+      2. [Life and medical sciences](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+
+
+         1. [Genetics](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+      3. [Physical sciences and engineering](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+
+
+         1. [Chemistry](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+         2. [Engineering](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+## Recommendations
+
+Recommendations (Premium feature)
+
+- [**A Survey of Adaptation of Large Language Models to Idea and Hypothesis Generation: Downstream Task Adaptation, Knowledge Distillation Approaches and Challenges**](https://dl.acm.org/doi/10.1145/3711896.3737419# "A Survey of Adaptation of Large Language Models to Idea and Hypothesis Generation: Downstream Task Adaptation, Knowledge Distillation Approaches and Challenges")
+
+
+
+
+
+Idea and hypothesis generation are creative processes that demand a significant level
+of reasoning. Methods such as brainstorming, analytical reasoning, inductive reasoning
+and other forms of reasoning have proven useful in advancing research in this ...
+
+
+
+
+
+
+
+[Read More](https://dl.acm.org/doi/10.1145/3711896.3737419# "Read More")
+
+- [**Applications of Generative AI for Advancing Scientific Content Production, Evaluation and Dissemination**](https://dl.acm.org/doi/10.1145/3711896.3737419# "Applications of Generative AI for Advancing Scientific Content Production, Evaluation and Dissemination")
+
+JCDL '26: Proceedings of the 26th ACM/IEEE Joint Conference on Digital Libraries
+
+
+
+
+
+
+
+Generative AI is becoming part of how scientific content is being produced, evaluated
+and communicated. Large language models (LLMs) can write science news, simulate readers,
+retrieve evidence, generate scientific hypotheses, write code, and execute ...
+
+
+
+
+
+
+
+[Read More](https://dl.acm.org/doi/10.1145/3711896.3737419# "Read More")
+
+- [**Intelligent Systems to Support Large-Scale Collective Creative Idea Generation**](https://dl.acm.org/doi/10.1145/3711896.3737419# "Intelligent Systems to Support Large-Scale Collective Creative Idea Generation")
+
+C&C '15: Proceedings of the 2015 ACM SIGCHI Conference on Creativity and Cognition
+
+
+
+
+
+
+
+In recent years, it has become possible for large groups of people to collaborate
+and generate ideas together in ways that were not possible before. However, the large
+number of ideas and participants in this setting also pose new challenges in helping
+...
+
+
+
+
+
+
+
+[Read More](https://dl.acm.org/doi/10.1145/3711896.3737419# "Read More")
+
+
+## Comments
+
+Comments (Premium feature)
+
+Disqus Comments
+
+We were unable to load Disqus. If you are a moderator please see our [troubleshooting guide](https://docs.disqus.com/help/83/).
+
+## DL Comment Policy
+
+Comments should be relevant to the contents of this article, (sign in required).
+
+Got it
+
+- [Share](https://disqus.com/embed/comments/?base=default&f=acm-prod&t_i=10.1145%2F3711896.3737419&t_u=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3711896.3737419&t_d=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&t_t=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&s_o=default#)
+
+  - Tweet this discussion
+  - Share this discussion on Facebook
+  - Share this discussion via email
+  - Copy link to discussion
+
+  - [Best](https://disqus.com/embed/comments/?base=default&f=acm-prod&t_i=10.1145%2F3711896.3737419&t_u=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3711896.3737419&t_d=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&t_t=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&s_o=default#)
+  - [Newest](https://disqus.com/embed/comments/?base=default&f=acm-prod&t_i=10.1145%2F3711896.3737419&t_u=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3711896.3737419&t_d=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&t_t=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&s_o=default#)
+  - [Oldest](https://disqus.com/embed/comments/?base=default&f=acm-prod&t_i=10.1145%2F3711896.3737419&t_u=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3711896.3737419&t_d=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&t_t=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&s_o=default#)
+
+Nothing in this discussion yet.
+
+[Load more comments](https://disqus.com/embed/comments/?base=default&f=acm-prod&t_i=10.1145%2F3711896.3737419&t_u=https%3A%2F%2Fdl.acm.org%2Fdoi%2F10.1145%2F3711896.3737419&t_d=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&t_t=IdeaBench%3A%20Benchmarking%20Large%20Language%20Models%20for%20Research%20Idea%20Generation%20%7C%20Proceedings%20of%20the%2031st%20ACM%20SIGKDD%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20V.2&s_o=default#)
+
+### Information
+
+#### Published In
+
+![cover image ACM Conferences](https://dl.acm.org/cms/asset/d955f367-4160-49e2-b243-bf59a658dd72/3711896.cover.jpg)
+
+KDD '25: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2
+
+August 2025
+
+6589 pages
+
+ISBN:9798400714542
+
+DOI:10.1145/3711896
+
+- **General Chairs:**
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Luiza Antonie](https://dl.acm.org/profile/81485658842 "Luiza Antonie"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Jian Pei](https://dl.acm.org/profile/99662041975 "Jian Pei"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Xiaohui Yu](https://dl.acm.org/profile/99661666153 "Xiaohui Yu"),
+- **Program Chairs:**
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Hady W. Lauw](https://dl.acm.org/profile/81100244697 "Hady W. Lauw"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Yizhou Sun](https://dl.acm.org/profile/81548005095 "Yizhou Sun"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Srinivasan Parthasarathy](https://dl.acm.org/profile/81100375834 "Srinivasan Parthasarathy"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Wee Hyong Tok](https://dl.acm.org/profile/99661323615 "Wee Hyong Tok"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Andrew Tomkins](https://dl.acm.org/profile/81100269271 "Andrew Tomkins"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Qi He](https://dl.acm.org/profile/81508702134 "Qi He"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Ambuj Singh](https://dl.acm.org/profile/81408600836 "Ambuj Singh"),
+- [![Author Picture](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)Haixun Wang](https://dl.acm.org/profile/81455605782 "Haixun Wang")
+
+Copyright © 2025.
+
+#### Sponsors
+
+- [SIGKDD: ACM Special Interest Group on Knowledge Discovery in Data](https://dl.acm.org/sig/sigkdd)
+- [SIGMOD: ACM Special Interest Group on Management of Data](https://dl.acm.org/sig/sigmod)
+
+#### Publisher
+
+Association for Computing Machinery
+
+New York, NY, United States
+
+#### Publication History
+
+**Published**: 03 August 2025
+
+#### Permissions
+
+Request permissions for this article.
+
+[Request Permissions](https://marketplace.copyright.com/rs-ui-web/mp/search/all/10.1145%2F3711896.3737419)
+
+#### Check for updates
+
+[Check for updates on crossmark](https://dl.acm.org/doi/10.1145/3711896.3737419# "Check for updates on crossmark")
+
+#### Author Tags
+
+1. [AI for science](https://dl.acm.org/keyword/AI+for+science?expand=all)
+2. [hypothesis generation](https://dl.acm.org/keyword/hypothesis+generation?expand=all)
+3. [large language models](https://dl.acm.org/keyword/large+language+models?expand=all)
+
+#### Qualifiers
+
+- Research-article
+
+#### Funding Sources
+
+- [NSF (National Science Foundation)](https://doi.org/10.13039/501100006374)
+- [NIH (National Institutes of Health)](https://doi.org/10.13039/501100006374)
+
+#### Conference
+
+KDD '25
+
+Sponsor:
+
+- [SIGKDD](https://dl.acm.org/sig/sigkdd)
+- [SIGMOD](https://dl.acm.org/sig/sigmod)
+
+[KDD '25: The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://kdd2025.kdd.org/)
+
+August 3 - 7, 2025
+
+Toronto ON, Canada
+
+#### Acceptance Rates
+
+KDD '25 Paper Acceptance Rate Not Available
+
+Overall Acceptance Rate 3,165 of 18,583 submissions, 17%
+
+### Contributors
+
+![](https://dl.acm.org/specs/products/acm/releasedAssets/images/loader-7e60691fbe777356dc81ff6d223a82a6.gif)
+
+#### Other Metrics
+
+[View Article Metrics](https://dl.acm.org/doi/10.1145/3711896.3737419#tab-metrics-inner)
+
+### Bibliometrics
+
+#### Article Metrics
+
+- 10
+
+Total Citations
+[View Citations](https://dl.acm.org/doi/10.1145/3711896.3737419#tab-citations)
+- 4,299
+
+Total Downloads
+
+
+- Downloads (Last 12 months)Advanced metrics (Premium feature)...
+- Downloads (Last 6 weeks) Advanced metrics (Premium feature)...
+
+Reflects downloads up to 17 Nov 2026
+
+#### Other Metrics
+
+[View Author Metrics](https://dl.acm.org/doi/10.1145/3711896.3737419#tab-contributors)
+
+### Citations
+
+## Cited By
+
+[View all](https://dl.acm.org/action/ajaxShowCitedBy?doi=10.1145/3711896.3737419 "View all cited by in new tab")
+
+- Huang YContractor NPeng TWang DShen CLi MLiu YZhang HSuh S(2026)Rethinking Social Computing Research in the Age of AI: Agency, Collaboration, and GovernanceProceedings of the 2026 Companion of the Computer-Supported Cooperative Work and Social Computing10.1145/3785651.3831580(572-575)Online publication date: 10-Oct-2026
+[https://dl.acm.org/doi/10.1145/3785651.3831580](https://dl.acm.org/doi/10.1145/3785651.3831580)
+
+- Ahmadpour J(2026)Characterizing LLM scientific concept generation: A multi-dimensional measurement studyPLOS One10.1371/journal.pone.0357892**21**:9(e0357892)Online publication date: 15-Sep-2026
+[https://doi.org/10.1371/journal.pone.0357892](https://doi.org/10.1371/journal.pone.0357892)
+
+- Guo SWang DFan XHuang AZhang AKim WLee JShim KCaverlee JGleich DZhang XHe QFarooq FRosales RRanu SWang HLiu YYang CAkoglu LChawla NPapalexakis V(2026)Curiosity-Driven Questioning for Engine-Agnostic LLM Research IdeationProceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.210.1145/3770855.3819030(11016-11027)Online publication date: 9-Aug-2026
+[https://dl.acm.org/doi/10.1145/3770855.3819030](https://dl.acm.org/doi/10.1145/3770855.3819030)
+
+- Guo SShariatmadari AWang JHuang ABekiranov SZhang SZhang AKim WLee JShim KCaverlee JGleich DZhang XHe QFarooq FRosales RRanu SWang HLiu YYang CAkoglu LChawla NPapalexakis V(2026)InfRL: Inference-time Reinforcement Learning for Research Idea OptimizationProceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.210.1145/3770855.3819029(11005-11015)Online publication date: 9-Aug-2026
+[https://dl.acm.org/doi/10.1145/3770855.3819029](https://dl.acm.org/doi/10.1145/3770855.3819029)
+
+- Ivanov MBelozerov G(2026)Noospheric Technologies in Knowledge-Intensive Socio-Technical Systems: A Conceptual Framework Applied to Science and EducationFuture Internet10.3390/fi18080403**18**:8(403)Online publication date: 30-Jul-2026
+[https://doi.org/10.3390/fi18080403](https://doi.org/10.3390/fi18080403)
+
+- Wu SYang YLee ALiebscher ARapuano KNiederhoffer KHancock J(2026)The Role of Human Agency in Human-AI Co-CreativityProceedings of the 2026 Conference on Creativity and Cognition10.1145/3803784.3816857(1510-1515)Online publication date: 13-Jul-2026
+[https://dl.acm.org/doi/10.1145/3803784.3816857](https://dl.acm.org/doi/10.1145/3803784.3816857)
+
+- Zhou JZhu RChen MWang JWang K(2026)TrustResearcher: Automating Knowledge-Grounded and Transparent Research Ideation with Multi-Agent CollaborationCompanion Proceedings of the ACM Web Conference 202610.1145/3774905.3793109(93-96)Online publication date: 29-Jun-2026
+[https://dl.acm.org/doi/10.1145/3774905.3793109](https://dl.acm.org/doi/10.1145/3774905.3793109)
+
+- Herron ELama VBouknight SGhosal T(2026)From Rules to Reasoning: A Survey of Large Language Model-Based Approaches to Scientific Hypothesis and Idea GenerationACM Computing Surveys10.1145/3815423**58**:13(1-36)Online publication date: 24-Jun-2026
+[https://dl.acm.org/doi/10.1145/3815423](https://dl.acm.org/doi/10.1145/3815423)
+
+- Chen SZhang C(2026)Enhancing research idea generation through combinatorial innovation and multi-agent iterative search strategiesScientometrics10.1007/s11192-026-05654-6Online publication date: 16-May-2026
+[https://doi.org/10.1007/s11192-026-05654-6](https://doi.org/10.1007/s11192-026-05654-6)
+
+- Keya FRabby GAuer SVahdati SMitra PJaradeh M(2026)SCI-IDEA: Context-Aware Scientific Ideation Using Token and Sentence EmbeddingsMachine Language10.1007/s10994-026-07036-8**115**:5Online publication date: 22-Apr-2026
+[https://dl.acm.org/doi/10.1007/s10994-026-07036-8](https://dl.acm.org/doi/10.1007/s10994-026-07036-8)
+
+
+### Share
+
+#### Share this Publication link
+
+Copy Link
+
+Copied!
+
+Copying failed.
+
+#### Share on social media
+
+[X](https://dl.acm.org/#twitter "Share on X") [LinkedIn](https://dl.acm.org/#linkedin "Share on LinkedIn") [Reddit](https://dl.acm.org/#reddit "Share on Reddit") [Facebook](https://dl.acm.org/#facebook "Share on Facebook") [Threads](https://dl.acm.org/#threads "Share on Threads") [email](https://dl.acm.org/#email "Share on email")
+
+#### Affiliations
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+SikunGuo
+
+Department of Computer Science, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0000-0002-4764-3359](https://orcid.org/0000-0002-4764-3359)
+
+[View Profile](https://dl.acm.org/profile/99660584476)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+Amir HassanShariatmadari
+
+Department of Computer Science, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0009-0002-6590-3748](https://orcid.org/0009-0002-6590-3748)
+
+[View Profile](https://dl.acm.org/profile/99661666806)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+GuangzhiXiong
+
+Department of Computer Science, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0000-0002-8049-5298](https://orcid.org/0000-0002-8049-5298)
+
+[View Profile](https://dl.acm.org/profile/99661323471)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+AlbertHuang
+
+Department of Computer Science, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0009-0009-4875-805X](https://orcid.org/0009-0009-4875-805X)
+
+[View Profile](https://dl.acm.org/profile/99661666187)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+MylesKim
+
+School of Medicine, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0000-0002-0424-5473](https://orcid.org/0000-0002-0424-5473)
+
+[View Profile](https://dl.acm.org/profile/99661672222)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+Corey M.Williams
+
+School of Medicine, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0009-0002-3466-916X](https://orcid.org/0009-0002-3466-916X)
+
+[View Profile](https://dl.acm.org/profile/99661663020)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+StefanBekiranov
+
+School of Medicine, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0000-0002-3177-4346](https://orcid.org/0000-0002-3177-4346)
+
+[View Profile](https://dl.acm.org/profile/99661671005)
+
+![](https://dl.acm.org/pb-assets/icons/DOs/default-profile-1543932446943.svg)
+
+AidongZhang
+
+Department of Computer Science, University of Virginia, Charlottesville, VA, USA
+
+[https://orcid.org/0000-0001-9723-3246](https://orcid.org/0000-0001-9723-3246)
+
+[View Profile](https://dl.acm.org/profile/99661834658)
+
+[Download PDF](https://dl.acm.org/doi/pdf/10.1145/3711896.3737419?download=true)
+
+xrefBack.goTo
+
+xrefBack.goTo
+
+Request permissionsExpand All
+
+Collapse
+
+Expand Table
+
+Show all references
+
+SHOW ALL BOOKS
+
+[Authors Info & Affiliations](about:blank#tab-contributors)
+
+[View Table of Contents](https://dl.acm.org/doi/proceedings/10.1145/3711896)
+
+Your Search Results Download Request
+
+We are preparing your search results for download ...
+
+We will inform you here when the file is ready.
+
+[Download now!](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+Your Search Results Download Request
+
+Your file of search results citations is now ready.
+
+[Download now!](https://dl.acm.org/doi/10.1145/3711896.3737419#)
+
+Your Search Results Download Request
+
+Your search export query has expired. Please try again.
+
+Copy link
+
+✓
+
+Thanks for sharing!
+
+Find any service
+
+[AddToAny](https://www.addtoany.com/ "Share Buttons")
+
+[More…](https://dl.acm.org/doi/10.1145/3711896.3737419#addtoany "Show all")
+
+A2A

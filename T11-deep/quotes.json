@@ -1,0 +1,31 @@
+{
+  "2610.15778": [
+    "Under GRPO against a frozen, reference-free LLM judge, RL exploits the judge's false positives.",
+    "no cell of 12 gained more than 0.04 in seed-mean held-out greedy accuracy",
+    "A gold-reward control with the same recipe raised the 1.5B policy's accuracy by +0.054",
+    "the plateau correlates with judge AUC (Spearman -0.69 over 12 cells)",
+    "A blind test of step-0 predictors on three held-out judges was inconclusive."
+  ],
+  "2611.04090": [
+    "five judge models from three providers re-judged 4,000 Chatbot Arena battles (nine systems, 33 system pairs)",
+    "median Cohen's kappa = 0.22",
+    "Kendall's tau with the human ranking ranged from 0.17 to 0.89 (median 0.67)",
+    "the preregistered hypothesis that rankings remain stable was not supported",
+    "Conclusions replicated by two low-cost judges from different providers matched the human conclusion more often than single-judge conclusions (+0.10 precision)"
+  ],
+  "2605.20744": [
+    "we instead embed detectable reward hacking opportunities directly into environments",
+    "This makes their exploitation verifiable by design, enabling deterministic and automated measurement of whether and how agents exploit such vulnerabilities."
+  ],
+  "2610.15924": [
+    "It first sets up an isolated verifier sandbox that agents cannot directly modify, then uses a hacker-fixer loop to find and repair remaining verifier vulnerabilities.",
+    "We apply this loop to Terminal Bench, KernelBench, and SETA, substantially reducing attack success across these agent environments.",
+    "outperforming the static, non-iterative baseline"
+  ],
+  "2611.15433": [
+    "aggregate score matching can coexist with image-level disagreement",
+    "Every verifier-protocol configuration also shrinks the human score difference between the two generators, by 7.5-25.0 pp",
+    "all four tested protocols reverse the human ordering of Z-Image and FLUX.2-dev on our fixed prompt suite",
+    "GPT-5.5 still has only 59.92% clover valid-count fidelity, while Claude Opus 4.7 has lower same-slice agreement ($\\kappa=0.432$)."
+  ]
+}
