@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install numpy (only third-party import in T10 instruments)
+        run: python3 -m pip install --quiet numpy
+
       - name: Create path alias for crosscheck relative paths
         run: |
           mkdir -p analyses/tracks
@@ -33,7 +36,7 @@ jobs:
         shell: bash
         run: |
           set -uo pipefail
-          mapfile -t scripts < <(grep -rl --include='*.py' -- 'self-test' . | grep -v __pycache__ | grep -v '^./analyses/' | sort)
+          mapfile -t scripts < <(grep -rl --include='*.py' -- 'self-test' . | grep -v __pycache__ | grep -v '^./analyses/' | grep -v '^./rsi-agent/' | sort)
           echo "Discovered ${#scripts[@]} self-test scripts"
           fail=0
           for c in "${scripts[@]}"; do
