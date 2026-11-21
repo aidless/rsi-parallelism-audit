@@ -1,0 +1,50 @@
+name: self-test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Checkout rsi-agent dependency (provides rsi_agent package)
+        uses: actions/checkout@v4
+        with:
+          repository: aidless/rsi-agent
+          path: rsi-agent
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Create path alias for crosscheck relative paths
+        run: |
+          mkdir -p analyses/tracks
+          ln -s ../.. analyses/tracks/rsi-after
+
+      - name: Run all --self-test instruments
+        shell: bash
+        run: |
+          set -uo pipefail
+          mapfile -t scripts < <(grep -rl --include='*.py' -- 'self-test' . | grep -v __pycache__ | grep -v '^./analyses/' | sort)
+          echo "Discovered ${#scripts[@]} self-test scripts"
+          fail=0
+          for c in "${scripts[@]}"; do
+            if timeout 120 python3 "$c" --self-test >/tmp/st.out 2>&1; then
+              printf 'PASS  %s  | %s\n' "$c" "$(tail -1 /tmp/st.out | cut -c1-70)"
+            else
+              rc=$?
+              printf 'FAIL  rc=%s  %s\n' "$rc" "$c"
+              tail -20 /tmp/st.out
+              fail=$((fail+1))
+            fi
+          done
+          echo "TOTAL=${#scripts[@]} FAIL=$fail"
+          test "$fail" -eq 0
