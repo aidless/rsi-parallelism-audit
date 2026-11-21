@@ -24,8 +24,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install numpy (only third-party import in T10 instruments)
-        run: python3 -m pip install --quiet numpy
+      - name: Install third-party deps (numpy/scipy used by T10 closed-form self-test)
+        run: python3 -m pip install --quiet numpy scipy
 
       - name: Create path alias for crosscheck relative paths
         run: |
